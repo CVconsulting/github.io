@@ -283,7 +283,7 @@
   .container .designBar { width: 2px; height: 16px; margin-top: 3px; float: right; }
   .container .plus { float: right; width: 20px; height: 20px; }
   .container button { font-size: 30px; font-weight: bold; cursor: pointer; background-size: contain; }
-  .container > .header { width: 100%; height: 50px;position: absolute; top: 0; left: 0; }
+  .container > .header { width: 100%; height: 50px;position: fixed; top: 0; left: 0; }
   .container > .header > h1 { float: left; width: 130px; height: 35px; background-size: contain; background-position: center center; margin-top: 7.5px; margin-left: 3%; }
   .container > .header > .gnbBox { width: 25px; height: 25px; float: right; margin-top: 13px; margin-right: 3%; }
   .container > .header > .gnbBox > button { width: 100%; height: 100%; }
