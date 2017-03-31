@@ -50,7 +50,7 @@
                 autoHover: false,   // 마우스 호버시 정지 여부
                 controls: false    // 이전 다음 버튼 노출 여부
             });
-			}else{
+			}else if(w_wh < 1080){
 				var lectureBox = $('.lecture .bx-wrapper');
 				var lectureBox_wh = lectureBox.width();
 				var lectureli = $('.lectureBox>li');
@@ -116,7 +116,7 @@
                 autoHover: false,   // 마우스 호버시 정지 여부
                 controls: false    // 이전 다음 버튼 노출 여부
             } );
-				}else{
+				}else if(w_wh < 1080){
 					var lectureBox = $('.lecture>.bx-wrapper');
 					var lectureBox_wh = lectureBox.width();
 					var banner_wh = $('.bannerBox').width();
