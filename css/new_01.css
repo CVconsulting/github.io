@@ -23,7 +23,7 @@
 .container .btnRw:hover { background-image: url(../img/btn_right_y.png); }
 .container .btnT:hover { background-image: url(../img/btn_top_y.png); }
 .container .btnB:hover { background-image: url(../img/btn_bottom_y.png); }
-.bx-controls-direction > a {z-index:5000;}
+.bx-controls-direction > a {z-index:5000 !important}
 .container button { background-color: transparent; }
 .container > .header { background-color: #fff;background-image: url(../img/header.jpg); background-size: cover; }
 .container > .header > h1 { background-image: url(../img/new_main_logo.png); background-size: contain; }
