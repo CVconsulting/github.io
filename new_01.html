@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="./css//lib/reset.css" />
+	<link rel="stylesheet" href="./js/jquery.bxslider/jquery.bxslider.css" />
+	<link rel="stylesheet" href="./css/new_01.css" />
+    <script src="js/jquery/jquery-1.12.3.min.js"></script>
+    <script src="js/jquery/jquery-migrate-1.3.0.min.js"></script>
+    <script src="js/jquery/jquery-ui.min.js"></script>
+    <script src="js/jquery.bxslider/jquery.bxslider.js"></script><!--
+    <script src="js/new_01.js"></script>-->
+    <script type="text/javascript">
+		
+		$(document).ready(function(){
+			
+			var w_wh = $(window).width();
+			var w_ht = $(window).height();
+			var lectureBox = $('.lecture .bx-wrapper');
+			var lectureBox_wh = lectureBox.width();
+			var lectureli = $('.lectureBox>li');
+			var btnL1 = $( '.bannerBox .btnL' ),
+				btnR1 = $( '.bannerBox .btnR' ),
+				btnL2 = $( '.noticeBox>.btnBox>.btnL' ),
+				btnR2 = $( '.noticeBox>.btnBox>.btnR' ),
+				btnL3 = $( '.lecture>.btnBox>.btnLw' ),
+				btnR3 = $( '.lecture>.btnBox>.btnRw' ),
+				slider1 = $( '.mainBanner' ),
+				slider2 = $( '.noticeBanner' ),
+				slider3 = $( '#lectureBox' ),
+				slider4 = $( '.studyBanner' );
+			if(w_wh > 1079){
+			var w_wh = $(window).width();
+			var w_ht = $(window).height();
+				$('.container').width(w_wh);
+				$('.container').height(w_ht);
+			slider4.bxSlider({
+                mode: 'vertical',// 가로 방향 수평 슬라이드
+                speed: 500,        // 이동 속도를 설정
+                pager: false,      // 현재 위치 페이징 표시 여부 설정
+                moveSlides: 1,     // 슬라이드 이동시 개수
+                minSlides: 4,      // 최소 노출 개수
+                maxSlides: 4,      // 최대 노출 개수
+                slideMargin: 0,    // 슬라이드간의 간격
+                auto: false,        // 자동 실행 여부
+				adaptiveHeight:true,
+				infiniteLoop:true,
+				autoStart:false,
+                autoHover: false,   // 마우스 호버시 정지 여부
+                controls: false    // 이전 다음 버튼 노출 여부
+            });
+			}else{
+				var lectureBox = $('.lecture .bx-wrapper');
+				var lectureBox_wh = lectureBox.width();
+				var lectureli = $('.lectureBox>li');
+				var banner_wh = $('.bannerBox').width();
+				var lecture_wh = lectureBox.width();
+				$('.container').width('100%');
+				$('.container').height('auto');
+				$('.bannerBox').height(banner_wh*0.644886);
+				lectureBox.height(lectureBox_wh*0.305419);
+				
+			};
+			
+			$(window).on('resize',function(){
+				var w_wh = $(window).width();
+				var w_ht = $(window).height();
+				var lectureBox = $('.lecture>.bx-wrapper');
+				var lectureBox_wh = lectureBox.width();
+				var lectureli = $('.lectureBox>li');
+				var btnL1 = $( '.bannerBox .btnL' ),
+					btnR1 = $( '.bannerBox .btnR' ),
+					btnL2 = $( '.noticeBox>.btnBox>.btnL' ),
+					btnR2 = $( '.noticeBox>.btnBox>.btnR' ),
+					btnL3 = $( '.lecture>.btnBox>.btnLw' ),
+					btnR3 = $( '.lecture>.btnBox>.btnRw' ),
+					slider1 = $( '.mainBanner' ),
+					slider2 = $( '.noticeBanner' ),
+					slider3 = $( '#lectureBox' ),
+					slider4 = $( '.studyBanner' );
+				var banner_wh = $('.bannerBox').width();
+				var lecture_wh = $('.lecture .bx-wrapper').width();
+				if(w_wh > 1079){
+				var w_wh = $(window).width();
+				var w_ht = $(window).height();
+				var lectureBox = $('.lecture>.bx-wrapper');
+				var lectureBox_wh = lectureBox.width();
+				var lectureli = $('.lectureBox>li');
+				var btnL1 = $( '.bannerBox .btnL' ),
+					btnR1 = $( '.bannerBox .btnR' ),
+					btnL2 = $( '.noticeBox>.btnBox>.btnL' ),
+					btnR2 = $( '.noticeBox>.btnBox>.btnR' ),
+					btnL3 = $( '.lecture>.btnBox>.btnLw' ),
+					btnR3 = $( '.lecture>.btnBox>.btnRw' ),
+					slider1 = $( '.mainBanner' ),
+					slider2 = $( '.noticeBanner' ),
+					slider3 = $( '#lectureBox' ),
+					slider4 = $( '.studyBanner' );
+				var banner_wh = $('.bannerBox').width();
+				var lecture_wh = lectureBox.width();
+					$('.container').width(w_wh);
+					$('.container').height(w_ht);
+			slider4.bxSlider( {
+                mode: 'vertical',// 가로 방향 수평 슬라이드
+                speed: 500,        // 이동 속도를 설정
+                pager: false,      // 현재 위치 페이징 표시 여부 설정
+                moveSlides: 1,     // 슬라이드 이동시 개수
+                minSlides: 4,      // 최소 노출 개수
+                maxSlides: 4,      // 최대 노출 개수
+                slideMargin: 0,    // 슬라이드간의 간격
+                auto: false,        // 자동 실행 여부
+				adaptiveHeight:true,
+				infiniteLoop:true,
+				autoStart:false,
+                autoHover: false,   // 마우스 호버시 정지 여부
+                controls: false    // 이전 다음 버튼 노출 여부
+            } );
+				}else{
+					var lectureBox = $('.lecture>.bx-wrapper');
+					var lectureBox_wh = lectureBox.width();
+					var banner_wh = $('.bannerBox').width();
+					var lecture_wh = $('.lecture .bx-wrapper').width();
+					$('.container').width('100%');
+					$('.container').height('auto');
+					$('.bannerBox').height(banner_wh*0.644886);
+					lectureBox.height(lectureBox_wh*0.305419);
+				};
+			});
+			
+			slider1.bxSlider( {
+                mode: 'horizontal',// 가로 방향 수평 슬라이드
+                speed: 500,        // 이동 속도를 설정
+                pager: true,      // 현재 위치 페이징 표시 여부 설정
+                moveSlides: 1,     // 슬라이드 이동시 개수
+                minSlides: 1,      // 최소 노출 개수
+                maxSlides: 1,      // 최대 노출 개수
+                slideMargin: 0,    // 슬라이드간의 간격
+                auto: true,        // 자동 실행 여부
+				adaptiveHeight:true,
+                autoHover: true,   // 마우스 호버시 정지 여부
+                controls: true    // 이전 다음 버튼 노출 여부
+            } );
+ 
+           //이전 버튼을 클릭하면 이전 슬라이드로 전환
+            btnL1.on( 'click', function () {
+                slider1.goToPrevSlide();  //이전 슬라이드 배너로 이동
+                return false;              //<a>에 링크 차단
+            } );
+ 
+           //다음 버튼을 클릭하면 다음 슬라이드로 전환
+            btnR1.on( 'click', function () {
+                slider1.goToNextSlide();  //다음 슬라이드 배너로 이동
+                return false;
+            } );
+			
+			slider2.bxSlider( {
+                mode: 'horizontal',// 가로 방향 수평 슬라이드
+                speed: 500,        // 이동 속도를 설정
+                pager: false,      // 현재 위치 페이징 표시 여부 설정
+                moveSlides: 1,     // 슬라이드 이동시 개수
+                minSlides: 1,      // 최소 노출 개수
+                maxSlides: 1,      // 최대 노출 개수
+                slideMargin: 0,    // 슬라이드간의 간격
+                auto: false,        // 자동 실행 여부
+				adaptiveHeight:true,
+				autoStart:false,
+                autoHover: true,   // 마우스 호버시 정지 여부
+                controls: false    // 이전 다음 버튼 노출 여부
+            } );
+            btnL2.on( 'click', function () {
+                slider2.goToPrevSlide();  //이전 슬라이드 배너로 이동
+                return false;              //<a>에 링크 차단
+            } );
+            btnR2.on( 'click', function () {
+                slider2.goToNextSlide();  //다음 슬라이드 배너로 이동
+                return false;
+            } );
+			
+			slider3.bxSlider( {
+				mode: 'horizontal',// 가로 방향 수평 슬라이드
+				speed: 500,        // 이동 속도를 설정
+				pager: false,      // 현재 위치 페이징 표시 여부 설정
+				moveSlides: 1,     // 슬라이드 이동시 개수
+				minSlides: 5,      // 최소 노출 개수
+				maxSlides: 5,      // 최대 노출 개수
+				slideMargin: 20,    // 슬라이드간의 간격
+				auto: false,        // 자동 실행 여부
+				adaptiveHeight:true,
+				autoStart:false,
+				autoHover: true,   // 마우스 호버시 정지 여부
+				controls: false,    // 이전 다음 버튼 노출 여부
+					captions: false
+			} );
+            btnL3.on( 'click', function () {
+                slider3.goToPrevSlide();  //이전 슬라이드 배너로 이동
+                return false;              //<a>에 링크 차단
+            } );
+            btnR3.on( 'click', function () {
+                slider3.goToNextSlide();  //다음 슬라이드 배너로 이동
+                return false;
+            } );
+			
+            $( '.curriculum .btnT' ).on( 'click', function () {
+                slider4.goToPrevSlide();  //이전 슬라이드 배너로 이동
+                return false;              //<a>에 링크 차단
+            } );
+            $( '.curriculum .btnB' ).on( 'click', function () {
+                slider4.goToNextSlide();  //다음 슬라이드 배너로 이동
+                return false;
+            } );
+		});
+	</script>
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<h1><span>CV 컨설팅</span></h1>
+			<div class="gnbBox">
+				<button type="button">
+					<span><!-- 첫번째 라인 --></span>
+					<span><!-- 두번째 라인 --></span>
+					<span><!-- 세번째 라인 --></span>
+				</button>
+				<ul>
+					<li><a href="#">회사소개</a></li>
+					<li><a href="#">강사소개</a></li>
+					<li><a href="#">공지사항</a></li>
+					<li><a href="#">교육과정</a></li>
+					<li><a href="#">사진첩</a></li>
+					<li><a href="#">교육문의</a></li>
+					<li><a href="#">오시는 길</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="section">
+			<div class="section01">
+				<div class="bannerBox">
+					<div class="btnBox">
+						<a href="#" class="btnL"></a>
+						<a href="#" class="btnR"></a>
+					</div>
+					<ul class="mainBanner">
+						<li class="banner_01"><a href="#"><span>배너</span></a></li>
+						<li class="banner_02"><a href="#"><span>배너</span></a></li>
+						<li class="banner_03"><a href="#"><span>배너</span></a></li>
+						<li class="banner_04"><a href="#"><span>배너</span></a></li>
+					</ul>
+				</div>
+				<div class="noticeBox">
+					<div class="notice">
+						<div class="noticeBox">
+							<h2>공지사항<span class="designBar"><!--디자인 바--></span></h2>
+							<h3>NOTICE</h3>
+							<div class="btnBox">
+								<a href="#" class="btnL"></a>
+								<a href="#" class="btnR"></a>
+							</div>
+						</div>
+						<div class="noticeBannerBox">
+							<ul class="noticeBanner">
+								<li>
+									<h4><a href="#">한국브레인학회 주관,<br />
+									브레인경영 출판기념회</a></h4>
+									<h5>2016</h5>
+									<h6>12.25</h6>
+									<p>한국브레인학회 주관 브레인경영 출판기념회가 11월11일에 국회의원회관에서 진행됩니다.<br />
+									<br />
+									CV컨설팅 황정화대표 &lang;뉴로마케팅&rang; 집필<br />
+									뇌과학과 경영의 융합이라는 첫 경영서<br />
+									<br />
+									「브레인 경영」</p>
+								</li>
+								<li>
+									<h4><a href="#">한국브레인학회 주관,<br />
+									브레인경영 출판기념회</a></h4>
+									<h5>2016</h5>
+									<h6>12.25</h6>
+									<p>한국브레인학회 주관 브레인경영 출판기념회가 11월11일에 국회의원회관에서 진행됩니다.<br />
+									<br />
+									CV컨설팅 황정화대표 &lang;뉴로마케팅&rang; 집필<br />
+									뇌과학과 경영의 융합이라는 첫 경영서<br />
+									<br />
+									「브레인 경영」</p>
+								</li>
+								<li>
+									<h4><a href="#">한국브레인학회 주관,<br />
+									브레인경영 출판기념회</a></h4>
+									<h5>2016</h5>
+									<h6>12.25</h6>
+									<p>한국브레인학회 주관 브레인경영 출판기념회가 11월11일에 국회의원회관에서 진행됩니다.<br />
+									<br />
+									CV컨설팅 황정화대표 &lang;뉴로마케팅&rang; 집필<br />
+									뇌과학과 경영의 융합이라는 첫 경영서<br />
+									<br />
+									「브레인 경영」</p>
+								</li>
+								<li>
+									<h4><a href="#">한국브레인학회 주관,<br />
+									브레인경영 출판기념회</a></h4>
+									<h5>2016</h5>
+									<h6>12.25</h6>
+									<p>한국브레인학회 주관 브레인경영 출판기념회가 11월11일에 국회의원회관에서 진행됩니다.<br />
+									<br />
+									CV컨설팅 황정화대표 &lang;뉴로마케팅&rang; 집필<br />
+									뇌과학과 경영의 융합이라는 첫 경영서<br />
+									<br />
+									「브레인 경영」</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="lecture">
+						<div class="titleBox">
+							<div>
+								<h2>강의<span class="designBar"><!--디자인 바--></span></h2>
+								<h3>LECTURE</h3>
+							</div>
+							<a href="#" class="plus"><span>자세히보기</span></a>
+						</div>
+						<div class="btnBox">
+							<a href="#" class="btnLw"></a>
+							<a href="#" class="btnRw"></a>
+						</div>
+						<ul class="lectureBox" id="lectureBox">
+							<li class="lecture01"><a href="#"></a></li>
+							<li class="lecture02"><a href="#"></a></li>
+							<li class="lecture03"><a href="#"></a></li>
+							<li class="lecture04"><a href="#"></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="section02">
+				<div class="studyBox">
+					<div class="curriculum">
+						<div class="titleBox">
+							<div class="title">
+								<h2>교육과정<span class="designBar"><!--디자인 바--></span></h2>
+								<h3>CURRICULUM</h3>
+							</div>
+							<a href="" class="plus"><span>자세히보기</span></a>
+							<div class="btnBox">
+								<a href="#" class="btnT"></a>
+								<a href="#" class="btnB"></a>
+							</div>
+						</div>
+						<ul class="studyBanner">
+							<li class="study01"><a href="#"></a></li>
+							<li class="study02"><a href="#"></a></li>
+							<li class="study03"><a href="#"></a></li>
+							<li class="study04"><a href="#"></a></li>
+							<li class="study05"><a href="#"></a></li>
+							<li class="study06"><a href="#"></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="etcBox">
+					<div class="contactUs">
+						<div class="titleBox">
+							<h2>문의하기<span class="designBar"><!--디자인 바--></span></h2>
+							<h3>CONTACT US</h3>
+						</div>
+						<form action="#">
+							<fieldset>
+								<ul>
+									<li>
+										<label for="">업체명</label>
+										<input type="text" name="" id="" value="" />
+									</li>
+									<li>
+										<label for="">연락처</label>
+										<input type="tel" name="" id="" value="" />
+									</li>
+									<li>
+										<label for="">이메일</label>
+										<input type="email" name="" id="" value="" />
+									</li>
+									<li>
+										<label for="">문의 내용</label>
+										<textarea name="" id="" cols="30" rows="10"></textarea>
+									</li>
+								</ul>
+								<div>
+									<label for="contents">개인정보 수집이용을 동의합니다.</label>
+									<input type="checkbox" name="contents" id="contents" />
+									<a href="#"><span>전문보기</span></a>
+									<button type="button">전&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;송</button>
+								</div>
+							</fieldset>
+						</form>
+					</div>
+					<div class="connect">
+						<div class="titleBox">
+							<h2>연결하기<span class="designBar"><!--디자인 바--></span></h2>
+							<h3>CONNECT</h3>
+						</div>
+						<div class="conBox">
+							<ul>
+								<li><a href="http://cvconsulting.modoo.at/"><h4>모두</h4><h5>cvconsulting.modoo.at/</h5></a></li>
+								<li><a href="http://blog.naver.com/cvconsulting"><h4>블로그</h4><h5>blog.naver.com/cvconsulting/</h5></a></li>
+								<li><a href="https://www.facebook.com/profile.php?id=100008261342072"><h4>페이스북</h4><h5>facebook.com/</h5></a></li>
+							</ul>
+							<h4>031-556-9174</h4>
+							<p>경기도 구리시 건원대로 3 흥호브라운오피스텔 1105호<br />
+							사업자등록번호 132-28-44880   대표자 황정화<br />
+							대표번호 031-556-9174   이메일 cvc.hwang@gmail.com</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

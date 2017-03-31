@@ -1,0 +1,380 @@
+.container { width: 100%; height: 100%; position: relative; }
+.container * { background-position: center center; background-repeat: no-repeat; background-size: cover; letter-spacing: -1px; font-family: "NanumSquare"; box-sizing: border-box; }
+.container input { text-indent: 4px; }
+.container h2 { color: #333; display: block; font-weight: normal; }
+.container h3 { color: #333; display: block; font-weight: 900; }
+.container h4 { color: #000; display: block; font-weight: 900; }
+.container h5 { color: #333; display: block; font-weight: normal; }
+.container h6 { color: #000; display: block; font-weight: normal; }
+.container p { color: #333; font-weight: normal; }
+.container a { width: 100%; height: 100%; display: block; text-decoration: none; color: #000; }
+.container .designBar { display: block; background-color: #333; }
+.container .plus { background-image: url(../img/plus.png); }
+.container .btnL, .container .btnR, .container .btnLw, .container .btnRw { font-weight: bold; cursor: pointer; background-size: contain; z-index: 5000; }
+.container .btnL { background-image: url(../img/btn_left.png); }
+.container .btnR { background-image: url(../img/btn_right.png); }
+.container .btnLw { background-image: url(../img/btn_left_w.png); }
+.container .btnRw { background-image: url(../img/btn_right_w.png); }
+.container .btnT { background-image: url(../img/btn_top.png); }
+.container .btnB { background-image: url(../img/btn_bottom.png); }
+.container .btnL:hover { background-image: url(../img/btn_left_y.png); }
+.container .btnR:hover { background-image: url(../img/btn_right_y.png); }
+.container .btnLw:hover { background-image: url(../img/btn_left_y.png); }
+.container .btnRw:hover { background-image: url(../img/btn_right_y.png); }
+.container .btnT:hover { background-image: url(../img/btn_top_y.png); }
+.container .btnB:hover { background-image: url(../img/btn_bottom_y.png); }
+.container button { background-color: transparent; }
+.container > .header { background-image: url(../img/header.jpg); background-size: cover; }
+.container > .header > h1 { background-image: url(../img/new_main_logo.png); background-size: contain; }
+.container > .header > h1 > span { width: 0; height: 0; display: block; overflow: hidden; }
+.container > .header > .gnbBox > button { display: block; }
+.container > .header > .gnbBox > button > span { display: block; background-color: #fff; }
+.container > .header > .gnbBox > ul > li > a { width: 100%; height: 100%; display: block; color: #fff; }
+.container > .header > .gnbBox > ul > li a:hover { font-weight: bold; color: #dd2; }
+.container > .section > .section01 > .bannerBox .mainBanner { height: 100% !important; }
+.container > .section > .section01 > .bannerBox .mainBanner > li { float: left; }
+.container > .section > .section01 > .bannerBox .mainBanner > li > a { width: 100%; height: 100%; display: block; }
+.container > .section > .section01 > .bannerBox .mainBanner > li > a > span { width: 0; height: 0; display: block; overflow: hidden; }
+.container > .section > .section01 > .bannerBox .mainBanner .banner_01 { background-image: url(../img/banner_01.png); }
+.container > .section > .section01 > .bannerBox .mainBanner .banner_02 { background-image: url(../img/banner_01.png); }
+.container > .section > .section01 > .bannerBox .mainBanner .banner_03 { background-image: url(../img/banner_01.png); }
+.container > .section > .section01 > .bannerBox .mainBanner .banner_04 { background-image: url(../img/banner_01.png); }
+.container > .section > .section01 > .noticeBox > .notice > .noticeBannerBox .noticeBanner > li > h5 { color: #aaa; }
+.container > .section > .section01 > .noticeBox > .lecture .lectureBox > li { background-size: contain; }
+.container > .section > .section01 > .noticeBox > .lecture .lectureBox > li > a { width: 100%; height: 100%; display: block; }
+.container > .section > .section01 > .noticeBox > .lecture .lectureBox .lecture01 { background-image: url(../img/lecture_01.jpg); }
+.container > .section > .section01 > .noticeBox > .lecture .lectureBox .lecture02 { background-image: url(../img/lecture_01.jpg); }
+.container > .section > .section01 > .noticeBox > .lecture .lectureBox .lecture03 { background-image: url(../img/lecture_01.jpg); }
+.container > .section > .section01 > .noticeBox > .lecture .lectureBox .lecture04 { background-image: url(../img/lecture_01.jpg); }
+.container > .section > .section02 > .studyBox > .curriculum .studyBanner > li > a { width: 100%; height: 100%; display: block; }
+.container > .section > .section02 > .studyBox > .curriculum .studyBanner > .study01 { background-image: url(../img/study01.jpg); }
+.container > .section > .section02 > .studyBox > .curriculum .studyBanner > .study02 { background-image: url(../img/study02.jpg); }
+.container > .section > .section02 > .studyBox > .curriculum .studyBanner > .study03 { background-image: url(../img/study03.jpg); }
+.container > .section > .section02 > .studyBox > .curriculum .studyBanner > .study04 { background-image: url(../img/study04.jpg); }
+.container > .section > .section02 > .studyBox > .curriculum .studyBanner > .study05 { background-image: url(../img/study03.jpg); }
+.container > .section > .section02 > .studyBox > .curriculum .studyBanner > .study06 { background-image: url(../img/study04.jpg); }
+.container > .section > .section02 > .etcBox > .contactUs { background-color: #F3F3F7; }
+.container > .section > .section02 > .etcBox > .contactUs > form > fieldset > div > button { background-color: #2855a4; color: #fff; font-weight: bold; }
+.container > .section > .section02 > .etcBox > .connect { background-color: #4C4C4C; }
+.container > .section > .section02 > .etcBox > .connect > .titleBox > h2 { color: #fff; }
+.container > .section > .section02 > .etcBox > .connect > .titleBox > h2 > .designBar { background-color: #fff; }
+.container > .section > .section02 > .etcBox > .connect > .titleBox > h3 { color: #fff; }
+.container > .section > .section02 > .etcBox > .connect > .conBox > ul { border-top: 1px solid #999; }
+.container > .section > .section02 > .etcBox > .connect > .conBox > ul > li { border-bottom: 1px solid #999; }
+.container > .section > .section02 > .etcBox > .connect > .conBox > ul > li > a { display: block; }
+.container > .section > .section02 > .etcBox > .connect > .conBox > ul > li > a > h4 { color: #fff; }
+.container > .section > .section02 > .etcBox > .connect > .conBox > ul > li > a > h5 { color: #fff; }
+.container > .section > .section02 > .etcBox > .connect > .conBox > ul > li > a:hover > h4 { color: #dfff00; }
+.container > .section > .section02 > .etcBox > .connect > .conBox > ul > li > a:hover > h5 { color: #dfff00; }
+.container > .section > .section02 > .etcBox > .connect > .conBox > h4 { color: #dfff00; }
+.container > .section > .section02 > .etcBox > .connect > .conBox > p { color: #aaa; }
+
+@media all and (min-width: 1080px) { .container { overflow: hidden; }
+  .container h2 { font-size: 22px; display: block; font-weight: normal; margin-bottom: 4px; }
+  .container h3 { font-size: 22px; }
+  .container h4 { font-size: 18px; }
+  .container h5 { font-size: 28px; }
+  .container h6 { font-size: 18px; }
+  .container p { font-size: 12px; line-height: 18px; }
+  .container .designBar { width: 2px; height: 16px; margin-top: 3px; float: right; }
+  .container .plus { float: right; width: 20px; height: 20px; }
+  .container .btnL, .container .btnR, .container .btnLw, .container .btnRw { font-size: 30px; font-weight: bold; cursor: pointer; background-size: contain; }
+  .container > .header { width: 100%; height: 10%; padding: 0 50px; }
+  .container > .header > h1 { float: left; width: 200px; height: 40px; margin-top: 25px; }
+  .container > .header > .gnbBox { float: right; margin-top: 40px; }
+  .container > .header > .gnbBox > ul > li { font-size: 16px; float: left; font-weight: normal; margin: 0 28px; }
+  .container > .section { width: 100%; height: 90%; }
+  .container > .section > div { width: 50%; height: 100%; float: left; }
+  .container > .section > .section01 { width: 50%; }
+  .container > .section > .section01 > .bannerBox { width: 100% !important; height: 70% !important; }
+  .container > .section > .section01 > .bannerBox > .bx-wrapper { width: 100%; height: 100%; }
+  .container > .section > .section01 > .bannerBox > .bx-wrapper > .bx-viewport { width: 100% !important; height: 100%; }
+  .container > .section > .section01 > .bannerBox > .bx-wrapper > .bx-viewport .mainBanner { width: 100%; height: 100% !important; overflow: hidden; }
+  .container > .section > .section01 > .bannerBox > .bx-wrapper > .bx-viewport .mainBanner > li { width: 100%; height: 100%; }
+  .container > .section > .section01 > .noticeBox { width: 100%; height: 30%; }
+  .container > .section > .section01 > .noticeBox > div { width: 50%; height: 100%; float: left; padding: 30px 20px 0; }
+  .container > .section > .section01 > .noticeBox > .notice .noticeBox { width: 21%; height: auto; float: left; }
+  .container > .section > .section01 > .noticeBox > .notice .noticeBox > h2 { width: 100%; height: 24px; line-height: 24px; }
+  .container > .section > .section01 > .noticeBox > .notice .noticeBox > h3 { width: 100%; height: 24px; line-height: 24px; }
+  .container > .section > .section01 > .noticeBox > .notice .noticeBox > .btnBox { width: 100%; height: 26px; margin-top: 30%; }
+  .container > .section > .section01 > .noticeBox > .notice .noticeBox > .btnBox > a { width: 30%; height: 100%; float: left; margin: 0 10%; }
+  .container > .section > .section01 > .noticeBox > .notice > .noticeBannerBox { width: 75% !important; height: 90% !important; overflow: hidden; float: right; }
+  .container > .section > .section01 > .noticeBox > .notice > .noticeBannerBox .noticeBanner > li { width: 100%; height: 100%; }
+  .container > .section > .section01 > .noticeBox > .notice > .noticeBannerBox .noticeBanner > li > h4 { width: 70%; height: 50px; text-align: right; float: right; }
+  .container > .section > .section01 > .noticeBox > .notice > .noticeBannerBox .noticeBanner > li > h4 > a { font-weight: bold; font-size: 18px; line-height: 26px; }
+  .container > .section > .section01 > .noticeBox > .notice > .noticeBannerBox .noticeBanner > li > h5 { width: 30%; float: left; height: 24px; line-height: 24px; margin-bottom: 2px; }
+  .container > .section > .section01 > .noticeBox > .notice > .noticeBannerBox .noticeBanner > li > h6 { width: 30%; float: left; line-height: 28px; height: 24px; }
+  .container > .section > .section01 > .noticeBox > .notice > .noticeBannerBox .noticeBanner > li > p { width: 100%; height: auto; float: left; margin-top: 7%; }
+  .container > .section > .section01 > .noticeBox > .lecture > .titleBox { width: 100%; height: 30%; }
+  .container > .section > .section01 > .noticeBox > .lecture > .titleBox > div { float: left; width: 22%; height: auto; }
+  .container > .section > .section01 > .noticeBox > .lecture > .titleBox > div > h2 { width: 90px; height: 24px; line-height: 24px; }
+  .container > .section > .section01 > .noticeBox > .lecture > .titleBox > div > h3 { width: 100px; height: 24px; line-height: 24px; }
+  .container > .section > .section01 > .noticeBox > .lecture > .btnBox { width: 100%; height: 0; position: relative; top: 25%; }
+  .container > .section > .section01 > .noticeBox > .lecture > .btnBox > a { width: 26px; height: 26px; position: absolute; }
+  .container > .section > .section01 > .noticeBox > .lecture > .btnBox > .btnLw { left: 2%; }
+  .container > .section > .section01 > .noticeBox > .lecture > .btnBox > .btnRw { right: 2%; }
+  .container > .section > .section01 > .noticeBox > .lecture > .bx-wrapper { width: 100%; height: 60% !important; overflow: hidden; }
+  .container > .section > .section01 > .noticeBox > .lecture > .bx-wrapper > .bx-viewport { width: 406px; height: 100% !important; }
+  .container > .section > .section01 > .noticeBox > .lecture > .bx-wrapper .lectureBox { width: auto; height: 100%; margin-left: 22%; }
+  .container > .section > .section01 > .noticeBox > .lecture > .bx-wrapper .lectureBox > li { width: 248px !important; height: 124px !important; float: left; background-size: contain; }
+  .container > .section > .section02 > div { width: 50%; float: left; height: 100%; }
+  .container > .section > .section02 > .studyBox > .curriculum { width: 100%; height: 100%; }
+  .container > .section > .section02 > .studyBox > .curriculum > .titleBox { width: 100%; height: 13%; padding: 30px 20px; }
+  .container > .section > .section02 > .studyBox > .curriculum > .titleBox > .title { width: 135px; height: 100%; float: left; }
+  .container > .section > .section02 > .studyBox > .curriculum > .titleBox > .title > h2 { width: 133px; height: 24px; line-height: 24px; }
+  .container > .section > .section02 > .studyBox > .curriculum > .titleBox > .title > h3 { width: 100%; height: 24px; line-height: 24px; }
+  .container > .section > .section02 > .studyBox > .curriculum > .titleBox > .btnBox { width: 26px; float: left; height: 100%; margin-left: 4%; }
+  .container > .section > .section02 > .studyBox > .curriculum > .titleBox > .btnBox > a { width: 26px; height: 26px; background-size: contain; float: none; }
+  .container > .section > .section02 > .studyBox > .curriculum > .bx-wrapper { width: 100%; height: 87%; overflow: hidden; }
+  .container > .section > .section02 > .studyBox > .curriculum > .bx-wrapper > .bx-viewport { width: 100%; height: 100% !important; }
+  .container > .section > .section02 > .studyBox > .curriculum .studyBanner { width: 100%; height: 100%; }
+  .container > .section > .section02 > .studyBox > .curriculum .studyBanner > li { width: 100%; height: 30%; }
+  .container > .section > .section02 > .etcBox > .contactUs { width: 100%; height: 70%; }
+  .container > .section > .section02 > .etcBox > .contactUs > .titleBox { width: 100%; height: 20%; padding: 30px 20px; }
+  .container > .section > .section02 > .etcBox > .contactUs > .titleBox > h2 { width: 29%; height: 24px; line-height: 24px; }
+  .container > .section > .section02 > .etcBox > .contactUs > .titleBox > h3 { width: 30%; height: 24px; line-height: 24px; }
+  .container > .section > .section02 > .etcBox > .contactUs > form { width: 100%; }
+  .container > .section > .section02 > .etcBox > .contactUs > form > * { float: right; }
+  .container > .section > .section02 > .etcBox > .contactUs > form > fieldset { width: 80%; float: right; margin-right: 3%; }
+  .container > .section > .section02 > .etcBox > .contactUs > form > fieldset > ul { width: 100%; margin-bottom: 10px; }
+  .container > .section > .section02 > .etcBox > .contactUs > form > fieldset > ul > li { width: 100%; height: 30px; margin-bottom: 15px; }
+  .container > .section > .section02 > .etcBox > .contactUs > form > fieldset > ul > li > * { float: left; line-height: 30px; }
+  .container > .section > .section02 > .etcBox > .contactUs > form > fieldset > ul > li > label { width: 20%; text-align: right; margin-right: 7%; }
+  .container > .section > .section02 > .etcBox > .contactUs > form > fieldset > ul > li > input { width: 60%; border-radius: 5px; padding: 0 3px; }
+  .container > .section > .section02 > .etcBox > .contactUs > form > fieldset > ul > li > textarea { width: 60%; height: 200px; resize: none; border-radius: 5px; padding: 5px; }
+  .container > .section > .section02 > .etcBox > .contactUs > form > fieldset ul:after { content: ""; display: block; clear: both; }
+  .container > .section > .section02 > .etcBox > .contactUs > form > fieldset > div { width: 60%; margin-left: 27%; }
+  .container > .section > .section02 > .etcBox > .contactUs > form > fieldset > div > * { float: left; }
+  .container > .section > .section02 > .etcBox > .contactUs > form > fieldset > div > label { font-size: 12px; margin-right: 10px; margin-top: 4px; }
+  .container > .section > .section02 > .etcBox > .contactUs > form > fieldset > div > input { margin-top: 4px; }
+  .container > .section > .section02 > .etcBox > .contactUs > form > fieldset > div > a { width: 55px; height: 20px; background-image: url(../img/linkBtn.png); float: right; }
+  .container > .section > .section02 > .etcBox > .contactUs > form > fieldset > div > a > span { width: 0; height: 0; display: block; overflow: hidden; }
+  .container > .section > .section02 > .etcBox > .contactUs > form > fieldset > div > button { width: 100%; height: 24px; border-radius: 24px; font-size: 16px; font-weight: bold; margin-top: 10px; }
+  .container > .section > .section02 > .etcBox > .contactUs > form > fieldset > div:after { content: ""; display: block; clear: both; }
+  .container > .section > .section02 > .etcBox > .contactUs form:after { content: ""; display: block; clear: both; }
+  .container > .section > .section02 > .etcBox > .connect { width: 100%; height: 30%; padding: 30px 20px; }
+  .container > .section > .section02 > .etcBox > .connect > .titleBox { width: 100px; height: 10%; float: left; }
+  .container > .section > .section02 > .etcBox > .connect > .titleBox > h2 { width: 100%; height: 24px; line-height: 24px; }
+  .container > .section > .section02 > .etcBox > .connect > .titleBox > h3 { width: 100%; height: 24px; line-height: 24px; }
+  .container > .section > .section02 > .etcBox > .connect > .conBox { float: right; }
+  .container > .section > .section02 > .etcBox > .connect > .conBox > ul { width: 220px; height: 99px; margin-left: 30px; }
+  .container > .section > .section02 > .etcBox > .connect > .conBox > ul > li { width: 100%; height: 33px; }
+  .container > .section > .section02 > .etcBox > .connect > .conBox > ul > li > a { width: 100%; height: 100%; }
+  .container > .section > .section02 > .etcBox > .connect > .conBox > ul > li > a > h4 { width: 30%; height: 100%; float: left; font-size: 14px; line-height: 33px; }
+  .container > .section > .section02 > .etcBox > .connect > .conBox > ul > li > a > h5 { width: 70%; height: 100%; float: right; font-size: 12px; line-height: 33px; text-align: right; }
+  .container > .section > .section02 > .etcBox > .connect > .conBox > h4 { width: 250px; height: 32px; line-height: 32px; font-size: 30px; margin: 10px 0; text-align: right; }
+  .container > .section > .section02 > .etcBox > .connect > .conBox > p { font-size: 12; text-align: right; } }
+@media (min-width: 641px) and (max-width: 1079px) { .container { width: 100%; overflow: hidden; margin: 0 auto; }
+  .container h2 { font-size: 18px; display: block; font-weight: normal; margin-bottom: 4px; }
+  .container h3 { font-size: 18px; }
+  .container h4 { font-size: 14px; }
+  .container h5 { font-size: 22px; }
+  .container h6 { font-size: 14px; }
+  .container p { font-size: 14px; line-height: 18px; }
+  .container .designBar { width: 2px; height: 16px; margin-top: 3px; float: right; }
+  .container .plus { float: right; width: 20px; height: 20px; }
+  .container button { font-size: 30px; font-weight: bold; cursor: pointer; background-size: contain; }
+  .container > .header { width: 100%; height: 70px; }
+  .container > .header > h1 { float: left; width: 200px; height: 50px; background-size: contain; background-position: center center; margin-top: 7.5px; margin-left: 3%; }
+  .container > .header > .gnbBox { width: 30px; height: 30px; float: right; margin-top: 20px; margin-right: 3%; }
+  .container > .header > .gnbBox > button { width: 100%; height: 100%; }
+  .container > .header > .gnbBox > button > span { width: 100%; height: 3px; border-radius: 4px; margin-bottom: 5px; }
+  .container > .header > .gnbBox > ul { display: none; }
+  .container > .header > .gnbBox > ul > li { font-size: 18px; float: left; font-weight: normal; margin: 0 33px; }
+  .container > .section { width: 100%; height: auto; }
+  .container > .section > div { width: 100%; height: auto; }
+  .container > .section > .section01 { width: 100%; }
+  .container > .section > .section01 > .bannerBox { width: 100%; height: 500px; }
+  .container > .section > .section01 > .bannerBox > .bx-wrapper { width: 100%; height: 100%; overflow: hidden; float: right; }
+  .container > .section > .section01 > .bannerBox > .bx-wrapper > .bx-viewport { width: 100%; height: 100% !important; }
+  .container > .section > .section01 > .bannerBox > .bx-wrapper > .bx-viewport .mainBanner { width: 100%; height: 100%; overflow: hidden; }
+  .container > .section > .section01 > .bannerBox > .bx-wrapper > .bx-viewport .mainBanner > li { width: 100%; height: 100%; }
+  .container > .section > .section01 > .noticeBox { width: 100%; }
+  .container > .section > .section01 > .noticeBox > div { width: 100%; float: left; }
+  .container > .section > .section01 > .noticeBox > .notice { width: 50%; height: auto; padding: 3% 3%; }
+  .container > .section > .section01 > .noticeBox > .notice > div { width: 25%; height: auto; float: left; }
+  .container > .section > .section01 > .noticeBox > .notice > div > h2 { width: 75px; height: 24px; line-height: 24px; }
+  .container > .section > .section01 > .noticeBox > .notice > div > h3 { width: 100%; height: 24px; line-height: 24px; }
+  .container > .section > .section01 > .noticeBox > .notice > div > .btnBox { width: 70%; height: 26px; margin-top: 20%; }
+  .container > .section > .section01 > .noticeBox > .notice > div > .btnBox > a { width: 30%; height: 100%; float: left; margin: 0 10%; }
+  .container > .section > .section01 > .noticeBox > .notice > .noticeBannerBox { width: 75%; }
+  .container > .section > .section01 > .noticeBox > .notice > .noticeBannerBox > .bx-wrapper { width: 100%; height: 100%; overflow: hidden; float: right; }
+  .container > .section > .section01 > .noticeBox > .notice > .noticeBannerBox > .bx-wrapper > .bx-viewport { width: 100%; height: 100%; }
+  .container > .section > .section01 > .noticeBox > .notice > .noticeBannerBox > .bx-wrapper > .bx-viewport .noticeBanner { height: 100%; }
+  .container > .section > .section01 > .noticeBox > .notice > .noticeBannerBox > .bx-wrapper > .bx-viewport .noticeBanner > li { width: 100%; height: 100%; }
+  .container > .section > .section01 > .noticeBox > .notice > .noticeBannerBox > .bx-wrapper > .bx-viewport .noticeBanner > li > h4 { width: 70%; height: 50px; text-align: right; float: right; }
+  .container > .section > .section01 > .noticeBox > .notice > .noticeBannerBox > .bx-wrapper > .bx-viewport .noticeBanner > li > h4 > a { font-weight: bold; font-size: 18px; line-height: 26px; }
+  .container > .section > .section01 > .noticeBox > .notice > .noticeBannerBox > .bx-wrapper > .bx-viewport .noticeBanner > li > h5 { width: 30%; float: left; height: 24px; line-height: 24px; margin-bottom: 2px; }
+  .container > .section > .section01 > .noticeBox > .notice > .noticeBannerBox > .bx-wrapper > .bx-viewport .noticeBanner > li > h6 { width: 30%; float: left; line-height: 28px; height: 24px; }
+  .container > .section > .section01 > .noticeBox > .notice > .noticeBannerBox > .bx-wrapper > .bx-viewport .noticeBanner > li > p { width: 100%; height: auto; float: left; margin-top: 7%; }
+  .container > .section > .section01 > .noticeBox > .lecture { width: 50%; height: auto !important; padding: 3% 3%; }
+  .container > .section > .section01 > .noticeBox > .lecture > .titleBox { width: 100%; margin-bottom: 10px; }
+  .container > .section > .section01 > .noticeBox > .lecture > .titleBox > div { float: left; width: 22%; height: auto; }
+  .container > .section > .section01 > .noticeBox > .lecture > .titleBox > div > h2 { width: 73px; height: 24px; line-height: 24px; }
+  .container > .section > .section01 > .noticeBox > .lecture > .titleBox > div > h3 { width: 75px; height: 24px; line-height: 24px; }
+  .container > .section > .section01 > .noticeBox > .lecture .titleBox:after { content: ""; display: block; clear: both; }
+  .container > .section > .section01 > .noticeBox > .lecture > .btnBox { position: relative; top: 50px; }
+  .container > .section > .section01 > .noticeBox > .lecture > .btnBox > a { width: 30px; height: 30px; position: absolute; }
+  .container > .section > .section01 > .noticeBox > .lecture > .btnBox > .btnLw { left: 3%; }
+  .container > .section > .section01 > .noticeBox > .lecture > .btnBox > .btnRw { right: 3%; }
+  .container > .section > .section01 > .noticeBox > .lecture > .bx-wrapper { width: 100%; height: 120px; overflow: hidden; }
+  .container > .section > .section01 > .noticeBox > .lecture > .bx-wrapper > .bx-viewport { width: 100%; height: 100% !important; }
+  .container > .section > .section01 > .noticeBox > .lecture > .bx-wrapper > .bx-viewport .lectureBox { height: 100%; overflow: hidden; margin-left: 17%; }
+  .container > .section > .section01 > .noticeBox > .lecture > .bx-wrapper > .bx-viewport .lectureBox > li { width: 1.5% !important; height: 100%; float: left; }
+  .container > .section > .section01 .noticeBox:after { content: ""; display: block; clear: both; }
+  .container > .section > .section02 { width: 100%; }
+  .container > .section > .section02 > div { width: 100%; height: 100%; }
+  .container > .section > .section02 > .studyBox { width: 100%; }
+  .container > .section > .section02 > .studyBox > .curriculum { width: 100%; height: auto; }
+  .container > .section > .section02 > .studyBox > .curriculum > .titleBox { width: 100%; padding: 3% 3%; }
+  .container > .section > .section02 > .studyBox > .curriculum > .titleBox > .plus { background-size: contain; width: 20px; height: 20px; float: right; }
+  .container > .section > .section02 > .studyBox > .curriculum > .titleBox > .title { width: 30%; height: 100%; float: left; }
+  .container > .section > .section02 > .studyBox > .curriculum > .titleBox > .title > h2 { width: 107px; height: 24px; line-height: 24px; }
+  .container > .section > .section02 > .studyBox > .curriculum > .titleBox > .title > h3 { width: 100%; height: 24px; line-height: 24px; }
+  .container > .section > .section02 > .studyBox > .curriculum > .titleBox > .btnBox { display: none; }
+  .container > .section > .section02 > .studyBox > .curriculum > .titleBox > .btnBox > button { width: 100%; height: 40%; float: none; }
+  .container > .section > .section02 > .studyBox > .curriculum .titleBox:after { content: ''; display: block; clear: both; }
+  .container > .section > .section02 > .studyBox > .curriculum > .bx-wrapper > .bx-viewport { height: auto !important; }
+  .container > .section > .section02 > .studyBox > .curriculum .studyBanner { width: 100%; height: auto !important; }
+  .container > .section > .section02 > .studyBox > .curriculum .studyBanner > li { width: 50% !important; height: 230px; background-size: cover; float: left !important; }
+  .container > .section > .section02 > .studyBox > .curriculum ul:after { content: ''; display: block; clear: both; }
+  .container > .section > .section02 > .etcBox > .contactUs { width: 100%; height: 70%; padding: 5% 3%; }
+  .container > .section > .section02 > .etcBox > .contactUs > .titleBox { width: 100%; height: 20%; margin-bottom: 5%; }
+  .container > .section > .section02 > .etcBox > .contactUs > .titleBox > h2 { width: 105px; height: 24px; line-height: 24px; }
+  .container > .section > .section02 > .etcBox > .contactUs > .titleBox > h3 { width: 27%; height: 24px; line-height: 24px; }
+  .container > .section > .section02 > .etcBox > .contactUs > form { width: 100%; }
+  .container > .section > .section02 > .etcBox > .contactUs > form > fieldset { width: 100%; }
+  .container > .section > .section02 > .etcBox > .contactUs > form > fieldset > ul { width: 100%; margin-bottom: 10px; }
+  .container > .section > .section02 > .etcBox > .contactUs > form > fieldset > ul > li { width: 100%; height: 30px; margin-bottom: 15px; }
+  .container > .section > .section02 > .etcBox > .contactUs > form > fieldset > ul > li > * { float: left; line-height: 30px; font-size: 14px; }
+  .container > .section > .section02 > .etcBox > .contactUs > form > fieldset > ul > li > label { width: 25%; text-align: right; margin-right: 5%; font-size: 16px; font-weight: bold; }
+  .container > .section > .section02 > .etcBox > .contactUs > form > fieldset > ul > li > input { width: 65%; border-radius: 5px; font-size: 18px; }
+  .container > .section > .section02 > .etcBox > .contactUs > form > fieldset > ul > li > textarea { width: 65%; height: 200px; resize: none; border-radius: 5px; padding: 5px; font-size: 18px; }
+  .container > .section > .section02 > .etcBox > .contactUs > form > fieldset ul:after { content: ""; display: block; clear: both; }
+  .container > .section > .section02 > .etcBox > .contactUs > form > fieldset > div { width: 100%; }
+  .container > .section > .section02 > .etcBox > .contactUs > form > fieldset > div > * { float: left; }
+  .container > .section > .section02 > .etcBox > .contactUs > form > fieldset > div > label { font-size: 12px; margin-top: 4px; float: right; margin-right: 5%; }
+  .container > .section > .section02 > .etcBox > .contactUs > form > fieldset > div > input { margin-top: 4px; margin-right: 4px; float: right; }
+  .container > .section > .section02 > .etcBox > .contactUs > form > fieldset > div > a { width: 55px; height: 20px; background-image: url(../img/linkBtn.png); float: left; margin-left: 30%; }
+  .container > .section > .section02 > .etcBox > .contactUs > form > fieldset > div > a > span { width: 0; height: 0; display: block; overflow: hidden; }
+  .container > .section > .section02 > .etcBox > .contactUs > form > fieldset > div > button { width: 65%; height: 35px; border-radius: 35px; font-size: 16px; margin-top: 10px; margin-left: 30%; }
+  .container > .section > .section02 > .etcBox > .contactUs > form > fieldset > div:after { content: ""; display: block; clear: both; }
+  .container > .section > .section02 > .etcBox > .contactUs form:after { content: ""; display: block; clear: both; }
+  .container > .section > .section02 > .etcBox > .connect { width: 100%; padding: 5% 3%; }
+  .container > .section > .section02 > .etcBox > .connect > .titleBox { width: 20%; height: 20%; margin-bottom: 5%; float: left; }
+  .container > .section > .section02 > .etcBox > .connect > .titleBox > h2 { width: 55%; height: 24px; line-height: 24px; }
+  .container > .section > .section02 > .etcBox > .connect > .titleBox > h3 { width: 80%; height: 24px; line-height: 24px; }
+  .container > .section > .section02 > .etcBox > .connect > .conBox { float: right; margin-right: 5%; }
+  .container > .section > .section02 > .etcBox > .connect > .conBox > ul { width: 100%; height: 99px; }
+  .container > .section > .section02 > .etcBox > .connect > .conBox > ul > li { width: 100%; height: 33px; }
+  .container > .section > .section02 > .etcBox > .connect > .conBox > ul > li > a { width: 100%; height: 100%; }
+  .container > .section > .section02 > .etcBox > .connect > .conBox > ul > li > a > h4 { width: 30%; height: 100%; float: left; font-size: 16px; line-height: 33px; }
+  .container > .section > .section02 > .etcBox > .connect > .conBox > ul > li > a > h5 { width: 70%; height: 100%; float: right; font-size: 14px; line-height: 33px; text-align: right; }
+  .container > .section > .section02 > .etcBox > .connect > .conBox > h4 { width: 100%; height: 32px; line-height: 32px; font-size: 34px; font-weight: bold; margin: 20px 0; text-align: right; }
+  .container > .section > .section02 > .etcBox > .connect > .conBox > p { font-size: 14px; text-align: right; }
+  .container > .section > .section02 > .etcBox .connect:after { content: ''; display: block; clear: both; } }
+@media (max-width: 640px) { .container { width: 100%; overflow: hidden; margin: 0 auto; }
+  .container h2 { font-size: 16px; display: block; font-weight: normal; margin-bottom: 4px; }
+  .container h3 { font-size: 16px; }
+  .container h4 { font-size: 12px; }
+  .container h5 { font-size: 18px; }
+  .container h6 { font-size: 11px; }
+  .container p { font-size: 12px; line-height: 18px; }
+  .container .designBar { width: 2px; height: 16px; margin-top: 3px; float: right; }
+  .container .plus { float: right; width: 20px; height: 20px; }
+  .container button { font-size: 30px; font-weight: bold; cursor: pointer; background-size: contain; }
+  .container > .header { width: 100%; height: 50px; }
+  .container > .header > h1 { float: left; width: 130px; height: 35px; background-size: contain; background-position: center center; margin-top: 7.5px; margin-left: 3%; }
+  .container > .header > .gnbBox { width: 25px; height: 25px; float: right; margin-top: 13px; margin-right: 3%; }
+  .container > .header > .gnbBox > button { width: 100%; height: 100%; }
+  .container > .header > .gnbBox > button > span { width: 100%; height: 3px; border-radius: 4px; margin-bottom: 5px; }
+  .container > .header > .gnbBox > ul { display: none; }
+  .container > .header > .gnbBox > ul > li { font-size: 18px; float: left; font-weight: normal; margin: 0 33px; }
+  .container > .section { width: 100%; height: auto; }
+  .container > .section > div { width: 100%; height: auto; }
+  .container > .section > .section01 { width: 100%; }
+  .container > .section > .section01 > .bannerBox { width: 100%; height: 400px; }
+  .container > .section > .section01 > .bannerBox > .bx-wrapper { width: 100%; height: 100%; overflow: hidden; float: right; }
+  .container > .section > .section01 > .bannerBox > .bx-wrapper > .bx-viewport { width: 100%; height: 100% !important; }
+  .container > .section > .section01 > .bannerBox > .bx-wrapper > .bx-viewport .mainBanner { width: 100%; height: 100%; overflow: hidden; }
+  .container > .section > .section01 > .bannerBox > .bx-wrapper > .bx-viewport .mainBanner > li { width: 100%; height: 100%; }
+  .container > .section > .section01 > .noticeBox { width: 100%; }
+  .container > .section > .section01 > .noticeBox > div { width: 100%; }
+  .container > .section > .section01 > .noticeBox > .notice { width: 100%; height: 250px; padding: 3% 3%; }
+  .container > .section > .section01 > .noticeBox > .notice > div { width: 25%; height: auto; float: left; }
+  .container > .section > .section01 > .noticeBox > .notice > div > h2 { width: 70px; height: 24px; line-height: 24px; }
+  .container > .section > .section01 > .noticeBox > .notice > div > h3 { width: 100%; height: 24px; line-height: 24px; }
+  .container > .section > .section01 > .noticeBox > .notice > div > .btnBox { width: 70%; height: 26px; margin-top: 20%; }
+  .container > .section > .section01 > .noticeBox > .notice > div > .btnBox > a { width: 30%; height: 100%; float: left; margin: 0 10%; }
+  .container > .section > .section01 > .noticeBox > .notice > .noticeBannerBox { width: 75%; }
+  .container > .section > .section01 > .noticeBox > .notice > .noticeBannerBox > .bx-wrapper { width: 100%; height: 100%; overflow: hidden; float: right; }
+  .container > .section > .section01 > .noticeBox > .notice > .noticeBannerBox > .bx-wrapper > .bx-viewport { width: 100%; height: 100%; }
+  .container > .section > .section01 > .noticeBox > .notice > .noticeBannerBox > .bx-wrapper > .bx-viewport .noticeBanner { height: 100%; }
+  .container > .section > .section01 > .noticeBox > .notice > .noticeBannerBox > .bx-wrapper > .bx-viewport .noticeBanner > li { width: 100%; height: 100%; }
+  .container > .section > .section01 > .noticeBox > .notice > .noticeBannerBox > .bx-wrapper > .bx-viewport .noticeBanner > li > h4 { width: 70%; height: 50px; text-align: right; float: right; }
+  .container > .section > .section01 > .noticeBox > .notice > .noticeBannerBox > .bx-wrapper > .bx-viewport .noticeBanner > li > h4 > a { font-weight: bold; font-size: 18px; line-height: 26px; }
+  .container > .section > .section01 > .noticeBox > .notice > .noticeBannerBox > .bx-wrapper > .bx-viewport .noticeBanner > li > h5 { width: 30%; float: left; height: 24px; line-height: 24px; margin-bottom: 2px; }
+  .container > .section > .section01 > .noticeBox > .notice > .noticeBannerBox > .bx-wrapper > .bx-viewport .noticeBanner > li > h6 { width: 30%; float: left; line-height: 28px; height: 24px; }
+  .container > .section > .section01 > .noticeBox > .notice > .noticeBannerBox > .bx-wrapper > .bx-viewport .noticeBanner > li > p { width: 100%; height: auto; float: left; margin-top: 7%; }
+  .container > .section > .section01 > .noticeBox > .lecture { width: 100%; height: auto; padding: 3% 3%; }
+  .container > .section > .section01 > .noticeBox > .lecture > .titleBox { width: 100%; }
+  .container > .section > .section01 > .noticeBox > .lecture > .titleBox > div { float: left; width: 22%; height: auto; }
+  .container > .section > .section01 > .noticeBox > .lecture > .titleBox > div > h2 { width: 65px; height: 24px; line-height: 24px; }
+  .container > .section > .section01 > .noticeBox > .lecture > .titleBox > div > h3 { width: 100%; height: 24px; line-height: 24px; }
+  .container > .section > .section01 > .noticeBox > .lecture > .btnBox { display: none; }
+  .container > .section > .section01 > .noticeBox > .lecture > .btnBox > a { width: 26px; height: 26px; position: absolute; top: 67px; }
+  .container > .section > .section01 > .noticeBox > .lecture > .bx-wrapper { width: 100%; height: 170px; overflow: hidden; }
+  .container > .section > .section01 > .noticeBox > .lecture > .bx-wrapper > .bx-viewport { width: 100%; height: 100% !important; }
+  .container > .section > .section01 > .noticeBox > .lecture > .bx-wrapper > .bx-viewport .lectureBox { height: 100%; overflow: hidden; margin-left: 17%; }
+  .container > .section > .section01 > .noticeBox > .lecture > .bx-wrapper > .bx-viewport .lectureBox > li { width: 1.5% !important; height: 100%; float: left; }
+  .container > .section > .section02 { width: 100%; }
+  .container > .section > .section02 > div { width: 100%; height: 100%; }
+  .container > .section > .section02 > .studyBox { width: 100%; }
+  .container > .section > .section02 > .studyBox > .curriculum { width: 100%; height: auto; }
+  .container > .section > .section02 > .studyBox > .curriculum > .titleBox { width: 100%; padding: 3% 3%; }
+  .container > .section > .section02 > .studyBox > .curriculum > .titleBox > .plus { background-size: contain; width: 20px; height: 20px; float: right; }
+  .container > .section > .section02 > .studyBox > .curriculum > .titleBox > .title { width: 30%; height: 100%; float: left; }
+  .container > .section > .section02 > .studyBox > .curriculum > .titleBox > .title > h2 { width: 95px; height: 24px; line-height: 24px; }
+  .container > .section > .section02 > .studyBox > .curriculum > .titleBox > .title > h3 { width: 100%; height: 24px; line-height: 24px; }
+  .container > .section > .section02 > .studyBox > .curriculum > .titleBox > .btnBox { display: none; }
+  .container > .section > .section02 > .studyBox > .curriculum > .titleBox > .btnBox > button { width: 100%; height: 40%; float: none; }
+  .container > .section > .section02 > .studyBox > .curriculum .titleBox:after { content: ''; display: block; clear: both; }
+  .container > .section > .section02 > .studyBox > .curriculum .studyBanner { width: 100%; }
+  .container > .section > .section02 > .studyBox > .curriculum .studyBanner > li { width: 100%; height: 200px; background-size: cover; }
+  .container > .section > .section02 > .etcBox > .contactUs { width: 100%; height: 70%; padding: 5% 3%; }
+  .container > .section > .section02 > .etcBox > .contactUs > .titleBox { width: 100%; height: 20%; margin-bottom: 5%; }
+  .container > .section > .section02 > .etcBox > .contactUs > .titleBox > h2 { width: 90px; height: 24px; line-height: 24px; }
+  .container > .section > .section02 > .etcBox > .contactUs > .titleBox > h3 { width: 27%; height: 24px; line-height: 24px; }
+  .container > .section > .section02 > .etcBox > .contactUs > form { width: 100%; }
+  .container > .section > .section02 > .etcBox > .contactUs > form > fieldset { width: 100%; }
+  .container > .section > .section02 > .etcBox > .contactUs > form > fieldset > ul { width: 100%; margin-bottom: 10px; }
+  .container > .section > .section02 > .etcBox > .contactUs > form > fieldset > ul > li { width: 100%; height: 30px; margin-bottom: 15px; }
+  .container > .section > .section02 > .etcBox > .contactUs > form > fieldset > ul > li > * { float: left; line-height: 30px; font-size: 14px; }
+  .container > .section > .section02 > .etcBox > .contactUs > form > fieldset > ul > li > label { width: 25%; text-align: right; margin-right: 5%; }
+  .container > .section > .section02 > .etcBox > .contactUs > form > fieldset > ul > li > input { width: 65%; border-radius: 5px; padding: 0 4px; }
+  .container > .section > .section02 > .etcBox > .contactUs > form > fieldset > ul > li > textarea { width: 65%; height: 200px; resize: none; border-radius: 5px; padding: 5px; font-size: 14px; }
+  .container > .section > .section02 > .etcBox > .contactUs > form > fieldset ul:after { content: ""; display: block; clear: both; }
+  .container > .section > .section02 > .etcBox > .contactUs > form > fieldset > div { width: 100%; }
+  .container > .section > .section02 > .etcBox > .contactUs > form > fieldset > div > * { float: left; }
+  .container > .section > .section02 > .etcBox > .contactUs > form > fieldset > div > label { font-size: 12px; margin-top: 4px; float: right; }
+  .container > .section > .section02 > .etcBox > .contactUs > form > fieldset > div > input { margin-top: 4px; margin-right: 4px; float: right; }
+  .container > .section > .section02 > .etcBox > .contactUs > form > fieldset > div > a { width: 55px; height: 20px; background-image: url(../img/linkBtn.png); float: left; margin-left: 30%; }
+  .container > .section > .section02 > .etcBox > .contactUs > form > fieldset > div > a > span { width: 0; height: 0; display: block; overflow: hidden; }
+  .container > .section > .section02 > .etcBox > .contactUs > form > fieldset > div > button { width: 65%; height: 24px; border-radius: 24px; font-size: 16px; margin-top: 10px; margin-left: 30%; }
+  .container > .section > .section02 > .etcBox > .contactUs > form > fieldset > div:after { content: ""; display: block; clear: both; }
+  .container > .section > .section02 > .etcBox > .contactUs form:after { content: ""; display: block; clear: both; }
+  .container > .section > .section02 > .etcBox > .connect { width: 100%; padding: 5% 3%; }
+  .container > .section > .section02 > .etcBox > .connect > .titleBox { width: 30%; height: 20%; margin-bottom: 5%; float: left; }
+  .container > .section > .section02 > .etcBox > .connect > .titleBox > h2 { width: 70px; height: 24px; line-height: 24px; }
+  .container > .section > .section02 > .etcBox > .connect > .titleBox > h3 { width: 80%; height: 24px; line-height: 24px; }
+  .container > .section > .section02 > .etcBox > .connect > .conBox { float: right; }
+  .container > .section > .section02 > .etcBox > .connect > .conBox > ul { width: 220px; height: 99px; margin: 0 auto; }
+  .container > .section > .section02 > .etcBox > .connect > .conBox > ul > li { width: 100%; height: 33px; }
+  .container > .section > .section02 > .etcBox > .connect > .conBox > ul > li > a { width: 100%; height: 100%; }
+  .container > .section > .section02 > .etcBox > .connect > .conBox > ul > li > a > h4 { width: 30%; height: 100%; float: left; font-size: 14px; line-height: 33px; }
+  .container > .section > .section02 > .etcBox > .connect > .conBox > ul > li > a > h5 { width: 70%; height: 100%; float: right; font-size: 12px; line-height: 33px; text-align: right; }
+  .container > .section > .section02 > .etcBox > .connect > .conBox > h4 { width: 220px; height: 32px; line-height: 32px; font-size: 30px; font-weight: bold; margin: 10px auto; text-align: right; }
+  .container > .section > .section02 > .etcBox > .connect > .conBox > p { font-size: 12; text-align: right; }
+  .container > .section > .section02 > .etcBox .connect:after { content: ''; display: block; clear: both; } }
+
+/*# sourceMappingURL=new_01.css.map */
