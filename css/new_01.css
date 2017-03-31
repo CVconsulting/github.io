@@ -24,7 +24,7 @@
 .container .btnT:hover { background-image: url(../img/btn_top_y.png); }
 .container .btnB:hover { background-image: url(../img/btn_bottom_y.png); }
 .container button { background-color: transparent; }
-.container > .header { background-image: url(../img/header.jpg); background-size: cover; }
+.container > .header { background-color: #fff;background-image: url(../img/header.jpg); background-size: cover; }
 .container > .header > h1 { background-image: url(../img/new_main_logo.png); background-size: contain; }
 .container > .header > h1 > span { width: 0; height: 0; display: block; overflow: hidden; }
 .container > .header > .gnbBox > button { display: block; }
