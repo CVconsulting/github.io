@@ -24,7 +24,7 @@
   .container > .header > .gnbBox > ul { display: none; }
   .container > .header > .gnbBox > ul > li { font-size: 18px; float: left; font-weight: normal; margin: 0 33px; } }
 @media (max-width: 640px) { .container { width: 100%; overflow: hidden; margin: 0 auto; }
-  .container > .header { width: 100%; height: 50px; }
+  .container > .header { width: 100%; height: 50px;position: fixed;left: 0;top: 0; }
   .container > .header > h1 { float: left; width: 130px; height: 35px; background-size: contain; background-position: center center; margin-top: 7.5px; margin-left: 3%; }
   .container > .header > .gnbBox { width: 25px; height: 25px; float: right; margin-top: 13px; margin-right: 3%; }
   .container > .header > .gnbBox > button { width: 100%; height: 100%; }
