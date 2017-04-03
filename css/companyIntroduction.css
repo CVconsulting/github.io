@@ -88,7 +88,7 @@
   .container > .section > .article02 > .sub > ul > li > p { font-size: 14px; line-height: 22px; }
   .container > .section > .article02 > .sub > ul > .cc { width: 40%; }
   .container > .section > div:after { content: ''; display: block; clear: both; } }
-@media (max-width: 640px) { .container > .section { padding-top: 70px; }
+@media (max-width: 640px) { .container > .section { padding-top: 50px; }
   .container > .section > .article01 { width: 100%; }
   .container > .section > .article01 > div { padding: 3%; }
   .container > .section > .article01 > ul { width: 100%; }
