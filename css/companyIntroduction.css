@@ -1,0 +1,116 @@
+.container { width: 100%; height: 100%; position: relative; top: 0; left: 0; }
+.container * { background-position: center center; background-repeat: no-repeat; background-size: cover; letter-spacing: -1px; box-sizing: border-box; }
+.container a { text-decoration: none; }
+.container > .section > .article01 > div { background-color: #2855a4; }
+.container > .section > .article01 > div > h2 { color: #fff; font-weight: bold; }
+.container > .section > .article01 > div > h3 { color: #ccc; font-weight: lighter; }
+.container > .section > .article01 > ul { background-color: #f3f3f3; }
+.container > .section > .article01 > ul > li > a { width: 100%; height: 100%; display: block; }
+.container > .section > .article01 > ul > li > a > h4 { color: #222; font-weight: bold; }
+.container > .section > .article01 > ul > li > a > h5 { color: #555; font-weight: lighter; }
+.container > .section > .article01 > ul > li:hover * { color: #2855a4; }
+.container > .section > .article01 > ul > .on { background-color: #fff; }
+.container > .section > .article02 > ul > li { float: left; }
+.container > .section > .article02 > ul > li > a { width: 100%; height: 100%; display: block; color: #777; }
+.container > .section > .article02 > ul > li > .present { color: #333; font-weight: bold; }
+.container > .section > .article02 > ul:after { content: ""; display: block; clear: both; }
+.container > .section > .article02 > .infor > div > h3 { color: #333; font-weight: bold; }
+.container > .section > .article02 > .infor > div > h4 { color: #ccc; font-weight: normal; }
+.container > .section > .article02 > .infor > h5 { color: #4d4d4d; }
+.container > .section > .article02 > .infor > p { color: #4d4d4d; }
+.container > .section > .article02 > .sub > h3 { background-image: url(../img/main_logo.png); background-size: contain; }
+.container > .section > .article02 > .sub > h3 > span { width: 0; height: 0; display: block; overflow: hidden; }
+.container > .section > .article02 > .sub > ul > li > h6 { border: 2px solid #4d4d4d; text-align: center; }
+.container > .section > .article02 > .sub > ul > li > p { text-align: center; }
+.container > .section > .article02 > .sub > ul > .cc > h6 { border: 2px solid #2756a6; }
+
+@media all and (min-width: 1080px) { .container { overflow: hidden; height: 100%; }
+  .container > .section { width: 100%; height: 90%; }
+  .container > .section > div { float: left; }
+  .container > .section > .article01 { width: 20%; height: 100%; }
+  .container > .section > .article01 > div { width: 100%; height: 20%; padding-top: 18%; padding-left: 10%; }
+  .container > .section > .article01 > div > h2 { font-size: 42px; width: 100%; margin: 0 auto; }
+  .container > .section > .article01 > div > h3 { font-size: 24px; width: 100%; margin: 0 auto; }
+  .container > .section > .article01 > ul { width: 100%; height: 80%; }
+  .container > .section > .article01 > ul > li { padding: 7.5%; }
+  .container > .section > .article01 > ul > li > a { width: 100%; height: 100%; }
+  .container > .section > .article01 > ul > li > a > h4 { font-size: 28px; float: left; }
+  .container > .section > .article01 > ul > li > a > h5 { font-size: 24px; float: right; }
+  .container > .section > .article01 > ul > li > a:after { content: ""; display: block; clear: both; }
+  .container > .section > .article02 { width: 80%; height: 100%; padding: 0 5%; padding-top: 4%; }
+  .container > .section > .article02 > ul { width: 100%; padding-left: 77%; margin-bottom: 3%; }
+  .container > .section > .article02 > ul > li { float: left; width: auto; margin: 0 1%; font-size: 14px; }
+  .container > .section > .article02 > ul > li > a { font-size: 16px; }
+  .container > .section > .article02 > ul:after { content: ""; display: block; clear: both; }
+  .container > .section > .article02 > div { float: left; }
+  .container > .section > .article02 > .infor { width: 45%; }
+  .container > .section > .article02 > .infor > div > h3 { font-size: 46px; }
+  .container > .section > .article02 > .infor > div > h4 { font-size: 40px; margin-bottom: 15%; }
+  .container > .section > .article02 > .infor > h5 { font-size: 25px; margin-bottom: 7%; }
+  .container > .section > .article02 > .infor > p { font-size: 20px; line-height: 30px; }
+  .container > .section > .article02 > .sub { width: 55%; }
+  .container > .section > .article02 > .sub > h3 { width: 100%; height: 220px; margin-bottom: 100px; }
+  .container > .section > .article02 > .sub > ul > li { width: 30%; float: left; }
+  .container > .section > .article02 > .sub > ul > li > h6 { width: 100px; height: 100px; border-radius: 50px; line-height: 100px; margin: 0 auto; margin-bottom: 20px; }
+  .container > .section > .article02 > .sub > ul > li > p { font-size: 14px; line-height: 22px; }
+  .container > .section > .article02 > .sub > ul > .cc { width: 40%; }
+  .container > .section > div:after { content: ''; display: block; clear: both; }
+  .container > .section:after { content: ""; display: block; clear: both; } }
+@media (min-width: 641px) and (max-width: 1079px) { .container { width: 100%; }
+  .container > .section { width: 100%; height: 90%; }
+  .container > .section > div { float: left; }
+  .container > .section > .article01 { width: 100%; height: auto; }
+  .container > .section > .article01 > div { width: 40%; height: 100%; float: left; padding: 2%; }
+  .container > .section > .article01 > div > h2 { font-size: 28px; width: 100%; margin: 0 auto; text-align: right; }
+  .container > .section > .article01 > div > h3 { font-size: 22px; width: 100%; margin: 0 auto; text-align: right; }
+  .container > .section > .article01 > ul { width: 60%; height: 100%; float: left; }
+  .container > .section > .article01 > ul > li { padding: 2%; }
+  .container > .section > .article01 > ul > li > a { width: 100%; height: 100%; }
+  .container > .section > .article01 > ul > li > a > h4 { font-size: 22px; float: left; }
+  .container > .section > .article01 > ul > li > a > h5 { font-size: 20px; float: right; }
+  .container > .section > .article01 > ul > li > a:after { content: ""; display: block; clear: both; }
+  .container > .section > .article02 { width: 100%; height: 100%; padding: 0 5%; padding-top: 2%; }
+  .container > .section > .article02 > ul { width: 100%; padding-left: 70%; margin-bottom: 5%; }
+  .container > .section > .article02 > ul > li { float: left; width: auto; margin: 0 1%; font-size: 14px; }
+  .container > .section > .article02 > ul > li > a { font-size: 16px; }
+  .container > .section > .article02 > ul:after { content: ""; display: block; clear: both; }
+  .container > .section > .article02 > div { float: left; }
+  .container > .section > .article02 > .infor { width: 100%; margin-bottom: 7%; }
+  .container > .section > .article02 > .infor > * { float: left; }
+  .container > .section > .article02 > .infor > div > h3 { font-size: 36px; }
+  .container > .section > .article02 > .infor > div > h4 { font-size: 36px; }
+  .container > .section > .article02 > .infor > h5 { font-size: 18px; margin-bottom: 2%; float: right; }
+  .container > .section > .article02 > .infor > p { font-size: 14px; line-height: 22px; float: right; text-align: right; }
+  .container > .section > .article02 > .sub { width: 100%; }
+  .container > .section > .article02 > .sub > h3 { width: 100%; height: 150px; margin-bottom: 100px; }
+  .container > .section > .article02 > .sub > ul > li { width: 30%; float: left; }
+  .container > .section > .article02 > .sub > ul > li > h6 { width: 100px; height: 100px; border-radius: 50px; line-height: 100px; margin: 0 auto; margin-bottom: 20px; }
+  .container > .section > .article02 > .sub > ul > li > p { font-size: 14px; line-height: 22px; }
+  .container > .section > .article02 > .sub > ul > .cc { width: 40%; }
+  .container > .section > div:after { content: ''; display: block; clear: both; } }
+@media (max-width: 640px) { .container > .section { padding-top: 70px; }
+  .container > .section > .article01 { width: 100%; }
+  .container > .section > .article01 > div { padding: 3%; }
+  .container > .section > .article01 > ul { width: 100%; }
+  .container > .section > .article01 > ul > li { width: 100%; padding: 3%; }
+  .container > .section > .article01 > ul > li > a { width: 100%; height: 100%; }
+  .container > .section > .article01 > ul > li > a > h4 { width: 60px; float: left; font-size: 14px; }
+  .container > .section > .article01 > ul > li > a > h5 { float: left; font-size: 14px; }
+  .container > .section > .article01 > ul > li a:after { content: ""; display: block; clear: both; }
+  .container > .section > .article02 { width: 100%; }
+  .container > .section > .article02 > ul { width: 100%; padding: 3%; }
+  .container > .section > .article02 > ul > .list > a { font-size: 12px; }
+  .container > .section > .article02 > ul > .arrow { font-size: 12px; }
+  .container > .section > .article02 > div { width: 100%; padding: 3%; }
+  .container > .section > .article02 > .infor > div > h3 { font-size: 18px; }
+  .container > .section > .article02 > .infor > div > h4 { font-size: 18px; }
+  .container > .section > .article02 > .infor > h5 { font-size: 14px; margin: 5% 0; }
+  .container > .section > .article02 > .infor > p { font-size: 12px; line-height: 18px; }
+  .container > .section > .article02 > .sub { width: 100%; }
+  .container > .section > .article02 > .sub > h3 { height: 120px; margin-bottom: 5%; }
+  .container > .section > .article02 > .sub > ul { width: 100%; height: auto; }
+  .container > .section > .article02 > .sub > ul > li { width: 100%; }
+  .container > .section > .article02 > .sub > ul > li > h6 { font-size: 16px; width: 70px; height: 70px; line-height: 70px; border-radius: 50px; margin: 0 auto; margin-bottom: 3%; }
+  .container > .section > .article02 > .sub > ul > li > p { font-size: 12px; line-height: 18px; margin-bottom: 7%; } }
+
+/*# sourceMappingURL=companyIntroduction.css.map */
