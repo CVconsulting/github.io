@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="./css//lib/reset.css" />
+	<link rel="stylesheet" href="./css/companyIntroduction.css" />
+    <script src="js/jquery/jquery-1.12.3.min.js"></script>
+    <script src="js/jquery/jquery-migrate-1.3.0.min.js"></script>
+    <script src="js/jquery/jquery-ui.min.js"></script>
+    <script type="text/javascript">
+
+//페이지가 로드되면 실행한다.
+
+$(document).ready( function() {
+	$(".header").load("header.html");
+	//~이렇게 한줄만 해주면 알아서 contents에 testContents.html파일을 넣어 준다.
+	});
+</script>
+</head>
+<body>
+	<div class="container">
+		<div class="header"></div>
+		<div class="section">
+			<div class="article01">
+				<div>
+					<h2>회사소개</h2>
+					<h3>COMPANY INTRODUCTION</h3>
+				</div>
+				<ul>
+					<li class="on">
+						<a href=""><h4>비전</h4>
+							<h5>VISION</h5></a>
+					</li>
+					<li>
+						<a href=""><h4>연혁</h4>
+							<h5>HISTORY</h5></a>
+					</li>
+				</ul>
+			</div>
+			<div class="article02">
+				<ul>
+					<li class="list"><a href="#">HOME</a></li>
+					<li class="arrow">＞</li>
+					<li class="list"><a href="#">회사소개</a></li>
+					<li class="arrow">＞</li>
+					<li class="list"><a href="#" class="present">비전</a></li>
+				</ul>
+				<div class="infor">
+					<div>
+						<h3>비전</h3>
+						<h4>VISION</h4>
+					</div>
+					<h5>가치를 연결하는 창의적 교육기업</h5>
+					<p>CV(Connecting Value)컨설팅은<br />개인과 조직의 가치를 연결하는 HRD교육전문기업입니다.</p>
+				</div>
+				<div class="sub">
+					<h3><span>cv컨설팅은?</span></h3>
+					<ul>
+						<li>
+							<h6>출강</h6>
+							<p>게시판에 문의 주시면<br />
+							안내와 제안서를 받아보실 수 있습니다.<br />
+							교육업체/대상/일자/내용/시간/장소<br />
+							(담당자연락처 必)</p>
+						</li>
+						<li class="cc">
+							<h6>컨설팅</h6>
+							<p>CV컨설팅은 교육 컨설팅 기업으로 단기과정 이외 <br />
+							장기적인 교육 프로젝트를 진행하고 있습니다.<br />
+							서비스업을 대상으로 하는 교육 컨설팅은 <br />
+							인터뷰 및 역량진단 이후 맞춤형으로 진행 됩니다.<br />
+							교육문의를 통해 제안서를 받아보시기 바랍니다.</p>
+						</li>
+						<li>
+							<h6>제휴</h6>
+							<p>협업을 통한 교육 제휴<br />
+							- 한국브레인학회<br />
+							- 브레인컨설턴트협회<br />
+							- 비즈니스닥터협회<br />
+							- 작은사랑실천본부<br />
+							- 서울특별시버스운송사업조합<br />
+							- 부산시버스운송사업조합</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+    <script type="text/javascript">
+		$(document).ready(function(){
+			var w_wh = $(window).width(),
+				w_ht = $(window).height(),
+				container = $('.container');
+			if(w_wh > 1079){
+				container.width(w_wh + "!important");
+				container.height(w_ht);
+			}else if(w_wh < 1080){
+				container.width("100%");
+				container.height("auto");
+			};
+			
+			$(window).resize(function(){
+				if(w_wh > 1079){
+			var w_wh = $(window).width(),
+				w_ht = $(window).height(),
+				container = $('.container');
+					container.width(w_wh + "!important");
+					container.height(w_ht);
+				}else if(w_wh < 1080){
+					container.width("100%");
+					container.height("auto");
+				};
+			});
+		});
+	</script>
+</body>
+</html>
