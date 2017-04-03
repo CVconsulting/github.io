@@ -164,7 +164,7 @@
   .container .designBar { width: 2px; height: 16px; margin-top: 3px; float: right; }
   .container .plus { float: right; width: 20px; height: 20px; }
   .container button { font-size: 30px; font-weight: bold; cursor: pointer; background-size: contain; }
-  .container > .section { width: 100%; height: auto; }
+  .container > .section { width: 100%; height: auto;padding-top:70px; }
   .container > .section > div { width: 100%; height: auto; }
   .container > .section > .section01 { width: 100%; }
   .container > .section > .section01 > .bannerBox { width: 100%; height: 500px; }
