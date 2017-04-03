@@ -4,8 +4,8 @@
 .container > .header > h1 { background-image: url(../img/new_main_logo.png); background-size: contain; }
 .container > .header > h1 > a {width: 100%; height:100%; display:block; }
 .container > .header > h1 > a > span { width: 0; height: 0; display: block; overflow: hidden; }
-.container > .header > .gnbBox > button { display: block; }
-.container > .header > .gnbBox > button > span { display: block;color:#fff;}
+.container > .header > .gnbBox > button { display: block;background-color: transparent; }
+.container > .header > .gnbBox > button > span { display: block;background-color:#fff;}
 .container > .header > .gnbBox > ul > li > a { width: 100%; height: 100%; display: block; color: #fff; }
 .container > .header > .gnbBox > ul > li a:hover { font-weight: bold; color: #dd2; }
 .container > .header:after { content: ""; display: block; clear: both; }
