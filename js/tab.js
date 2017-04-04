@@ -8,6 +8,6 @@
         $(this).addClass("on");
         var activeTab = $(this).attr("rel");
         $("#" + activeTab).show();
-    });
         $(".map").hide();
+    });
 });
