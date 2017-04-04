@@ -8,6 +8,7 @@
         $(this).addClass("on");
         var activeTab = $(this).attr("rel");
         $("#" + activeTab).show();
-        $(".map").hide();
+        //$(".map").hide();
+        $("#" + activeTab).siblings().hide();
     });
 });
