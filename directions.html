@@ -29,8 +29,6 @@
 		$("#" + activeTab).show();
 			var map = new daum.maps.Map(container, options); //지도 생성 및 객체 리턴
     			map.relayout();
-	    });
-		var map = new daum.maps.Map(container, options); //지도 생성 및 객체 리턴
 		var markerPosition  = new daum.maps.LatLng(37.601418, 127.140682); 
 
 		// 마커를 생성합니다
@@ -57,6 +55,7 @@
 		    content: content,
 		    yAnchor: 1 
 		});
+	    });
 	});
 </script>
     <!--<script src="js/tab.js"></script>-->
