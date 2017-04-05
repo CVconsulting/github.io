@@ -1,6 +1,5 @@
     $(function () {
 
-    $(".map").hide();
     $(".map:first").show();
 
     $(".tabList li").click(function () {
