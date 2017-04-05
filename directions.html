@@ -18,11 +18,21 @@
 				level: 3 //지도의 레벨(확대, 축소 정도)
 			};
 			var map = new daum.maps.Map(container, options); //지도 생성 및 객체 리턴
-			map.hide();
+	    $(".map").hide();
     			map.relayout();
+		
+	    $(".map:first").show();
+
+	    $(".tabList li").click(function () {
+		$(".tabList li").removeClass("on");
+		$(this).addClass("on");
+		$(".map").hide();
+		var activeTab = $(this).attr("rel");
+		$("#" + activeTab).show();
+	    });
 	});
 </script>
-    <script src="js/tab.js"></script>
+    <!--<script src="js/tab.js"></script>-->
     <script src="js/rwdV2.js"></script>
 </head>
 <body>
