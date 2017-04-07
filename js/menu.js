@@ -1,12 +1,9 @@
-function menu(){
-    var menu_icon = $('#headBox').find('.menu_btn'),
-        $bgBox = $('#headBox').find('#bg'),
-        close_icon = $('#headBox').find('.close_btn');
+$(document).ready(function() {
+    var menu_icon = $('.gnbBox > button');
     
     menu_icon.on('click', function(){
-        var $nav = $('#headBox').find('nav');
+		var nav = $('.gnbBox > ul');
         $(this).toggleClass('close_btn');
-        $nav.toggleClass('nav_add');
-        $bgBox.stop().fadeIn().toggleClass('bg_op');
+		nav.toggleClass('navOn');
     });
-}
+});
