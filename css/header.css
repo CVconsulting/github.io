@@ -2,12 +2,12 @@
 .container * { background-position: center center; background-repeat: no-repeat; background-size: cover; letter-spacing: -1px; font-family: "NanumSquare"; box-sizing: border-box; }
 .container > .header { background-image: url(../img/header.jpg); background-size: cover; }
 .container > .header > h1 { background-image: url(../img/new_main_logo.png); background-size: contain; }
-.container > .header > h1 > a {width: 100%; height:100%; display:block; }
-.container > .header > h1 > a > span { width: 0; height: 0; display: block; overflow: hidden; }
-.container > .header > .gnbBox > button { display: block;background-color: transparent; }
-.container > .header > .gnbBox > button > span { display: block;background-color:#fff;}
+.container > .header > h1 > span { width: 0; height: 0; display: block; overflow: hidden; }
+.container > .header > .gnbBox > button { display: block; background-color: transparent; cursor: pointer; }
+.container > .header > .gnbBox > button > span { display: block; background-color: #fff; transition: all .5s; }
 .container > .header > .gnbBox > ul > li > a { width: 100%; height: 100%; display: block; color: #fff; }
 .container > .header > .gnbBox > ul > li a:hover { font-weight: bold; color: #dd2; }
+.container > .header > .gnbBox > .navOn { height: 100vh; }
 .container > .header:after { content: ""; display: block; clear: both; }
 
 @media all and (min-width: 1080px) { .container { overflow: hidden; }
@@ -15,21 +15,31 @@
   .container > .header > h1 { float: left; width: 200px; height: 40px; margin-top: 25px; }
   .container > .header > .gnbBox { float: right; margin-top: 40px; }
   .container > .header > .gnbBox > ul > li { font-size: 16px; float: left; font-weight: normal; margin: 0 28px; } }
-@media (min-width: 641px) and (max-width: 1079px) { .container { width: 100%; margin: 0 auto; }
-  .container > .header { width: 100%; height: 70px;position: fixed;left: 0;top: 0;z-index:10000; }
+@media (min-width: 641px) and (max-width: 1079px) { .container { width: 100%; overflow: hidden; margin: 0 auto; }
+  .container > .header { width: 100%; height: 70px; }
   .container > .header > h1 { float: left; width: 200px; height: 50px; background-size: contain; background-position: center center; margin-top: 7.5px; margin-left: 3%; }
   .container > .header > .gnbBox { width: 30px; height: 30px; float: right; margin-top: 20px; margin-right: 3%; }
-  .container > .header > .gnbBox > button { width: 100%; height: 100%; }
-  .container > .header > .gnbBox > button > span { width: 100%; height: 3px; border-radius: 4px; margin-bottom: 5px; }
-  .container > .header > .gnbBox > ul { display: none; }
-  .container > .header > .gnbBox > ul > li { font-size: 18px; float: left; font-weight: normal; margin: 0 33px; } }
-@media (max-width: 640px) { .container { width: 100%; margin: 0 auto; }
-  .container > .header { width: 100%; height: 50px;position: fixed;left: 0;top: 0;z-index:10000; }
-  .container > .header > h1 { float: left; width: 130px; height: 35px; background-size: contain; background-position: center center; margin-top: 7.5px; margin-left: 3%; }
-  .container > .header > .gnbBox { width: 25px; height: 25px; float: right; margin-top: 13px; margin-right: 3%; }
-  .container > .header > .gnbBox > button { width: 100%; height: 100%; }
-  .container > .header > .gnbBox > button > span { width: 100%; height: 3px; border-radius: 4px; margin-bottom: 5px; }
-  .container > .header > .gnbBox > ul { display: none; }
-  .container > .header > .gnbBox > ul > li { font-size: 18px; float: left; font-weight: normal; margin: 0 33px; } }
-
-/*# sourceMappingURL=header.css.map */
+  .container > .header > .gnbBox > button { width: 30px; height: 25px; position: absolute; right: 15px; top: 20px; }
+  .container > .header > .gnbBox > button > span { width: 100%; height: 3px; border-radius: 3px; position: absolute; }
+  .container > .header > .gnbBox > button > .line1 { top: 0; }
+  .container > .header > .gnbBox > button > .line2 { top: 11px; }
+  .container > .header > .gnbBox > button > .line3 { bottom: 0; }
+  .container > .header > .gnbBox > .close_btn > .line1 { transform: rotate(45deg); top: 11px; }
+  .container > .header > .gnbBox > .close_btn > .line2 { display: none; }
+  .container > .header > .gnbBox > .close_btn > .line3 { transform: rotate(-45deg); bottom: 11px; }
+  .container > .header > .gnbBox > ul { width: 100%; height: 0; position: absolute; left: 100%; top: 70px; background-color: rgba(34, 34, 34, 0.9); transition: all .5s; overflow: hidden; }
+  .container > .header > .gnbBox > ul > li { font-size: 26px; font-weight: normal; text-align: center; padding: 3% 0; } }
+@media (max-width: 640px) { .container { width: 100%; overflow: hidden; margin: 0 auto; }
+  .container > .header { width: 100%; height: 50px; position: relative; }
+  .container > .header > h1 { float: left; width: 130px; height: 35px; background-size: contain; background-position: center center; margin-top: 7.5px; margin-left: 3%; position: absolute; }
+  .container > .header > .gnbBox { width: 100%; float: right; position: relative; }
+  .container > .header > .gnbBox > button { width: 25px; height: 20px; position: absolute; right: 15px; top: 12.5px; }
+  .container > .header > .gnbBox > button > span { width: 100%; height: 2px; border-radius: 3px; position: absolute; }
+  .container > .header > .gnbBox > button > .line1 { top: 0; }
+  .container > .header > .gnbBox > button > .line2 { top: 9px; }
+  .container > .header > .gnbBox > button > .line3 { bottom: 0; }
+  .container > .header > .gnbBox > .close_btn > .line1 { transform: rotate(45deg); top: 9px; }
+  .container > .header > .gnbBox > .close_btn > .line2 { display: none; }
+  .container > .header > .gnbBox > .close_btn > .line3 { transform: rotate(-45deg); bottom: 9px; }
+  .container > .header > .gnbBox > ul { width: 100%; height: 0; position: absolute; left: 0; top: 50px; background-color: rgba(34, 34, 34, 0.9); transition: all .5s; overflow: hidden; }
+  .container > .header > .gnbBox > ul > li { font-size: 16px; font-weight: normal; text-align: center; padding: 5% 0; } }
