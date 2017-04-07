@@ -72,6 +72,7 @@
   .container > .section > .article02 > ul > li { float: left; width: auto; margin: 0 1%; font-size: 14px; }
   .container > .section > .article02 > ul > li > a { font-size: 16px; }
   .container > .section > .article02 > .mapBox { width: 100%; height: 80%; }
+  .container > .section > .article02 > .mapBox > .map { width: 100%; }
   .container > .section > .article02 > .publicTransport > h3 { font-size: 24px; margin-bottom: 20px; }
   .container > .section > .article02 > .publicTransport > h4 { font-size: 18px; margin-bottom: 5px; }
   .container > .section > .article02 > .publicTransport > h5 { font-size: 16px; margin-bottom: 30px; line-height: 24px; }
@@ -102,3 +103,5 @@
 .customoverlay .title { width: 50px; height: 15px; display: block !important; text-align: center !important; background: #fff !important; margin-right: 35px !important; padding: 10px 30px !important; font-size: 14px !important; font-weight: bold !important; box-sizing: content-box !important; }
 
 .customoverlay:after { content: '' !important; position: absolute !important; margin-left: -12px !important; left: 50% !important; bottom: -12px !important; width: 22px !important; height: 12px !important; background: url("http://t1.daumcdn.net/localimg/localimages/07/mapapidoc/vertex_white.png") !important; }
+
+/*# sourceMappingURL=directions.css.map */
