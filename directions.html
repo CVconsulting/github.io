@@ -10,8 +10,26 @@
     <script src="js/jquery/jquery-ui.min.js"></script>
     <script type="text/javascript" src="//apis.daum.net/maps/maps3.js?apikey=c28845f8116741c5971e991fd080a92e"></script>
     <script type="text/javascript">
-	$(document).ready( function() {
+		$(document).ready( function() {
 			$(".header").load("header.html");
+			
+			var mapBox = $('.mapBox > .map');
+			var w_wh = $(window).width();
+			var w_ht = $(window).height();
+			if(w_wh < 1079){
+				mapBox.width('100%');
+				mapBox.height(w_wh*0.6179875);
+			};
+			$(window).on('resize', function(){
+				var mapBox = $('.mapBox > .map');
+				var w_wh = $(window).width();
+				var w_ht = $(window).height();
+				if(w_wh < 1079){
+					mapBox.width('100%');
+					mapBox.height(w_wh*0.6179875);
+				};
+			});
+			
 			var container = document.getElementById('tab2'); //지도를 담을 영역의 DOM 레퍼런스
 			var options = { //지도를 생성할 때 필요한 기본 옵션
 				center: new daum.maps.LatLng(37.601418, 127.140682), //지도의 중심좌표.
@@ -20,40 +38,40 @@
 	    $(".map").hide();
 		
 	    $(".map:first").show();
+	    $(".map:first").show();
 
 	    $(".tabList li").click(function () {
-		$(".tabList li").removeClass("on");
-		$(this).addClass("on");
-		var activeTab = $(this).attr("rel");
-        	$(".map").hide();
-		$("#" + activeTab).show();
+			$(".tabList li").removeClass("on");
+			$(this).addClass("on");
+			var activeTab = $(this).attr("rel");
+				$(".map").hide();
+			$("#" + activeTab).show();
 			var map = new daum.maps.Map(container, options); //지도 생성 및 객체 리턴
     			map.relayout();
-		var markerPosition  = new daum.maps.LatLng(37.601418, 127.140682); 
+			var markerPosition  = new daum.maps.LatLng(37.601418, 127.140682); 
 
-		// 마커를 생성합니다
-		var marker = new daum.maps.Marker({
-		    position: markerPosition
-		});
+			// 마커를 생성합니다
+			var marker = new daum.maps.Marker({
+				position: markerPosition
+			});
 
-		// 마커가 지도 위에 표시되도록 설정합니다
-		marker.setMap(map);
-		
-		var content = '<div class="customoverlay">'+'<a href="http://map.daum.net/?map_type=DEFAULT&map_hybrid=false&q=%EA%B5%AC%EB%A6%AC%20%ED%9D%A5%ED%99%94%EB%B8%8C%EB%9D%BC%EC%9A%B4%EC%98%A4%ED%94%BC%EC%8A%A4%ED%85%94" target="_blank">'+'<span class="title">CS컨설팅</span>'+'</a>'+'</div>';
-		// 커스텀 오버레이가 표시될 위치입니다 
-		var position = new daum.maps.LatLng(37.601418, 127.140682);  
+			// 마커가 지도 위에 표시되도록 설정합니다
+			marker.setMap(map);
 
-		// 커스텀 오버레이를 생성합니다
-		var customOverlay = new daum.maps.CustomOverlay({
-		    map: map,
-		    position: position,
-		    content: content,
-		    yAnchor: 1 
-		});
+			var content = '<div class="customoverlay">'+'<a href="http://map.daum.net/?map_type=DEFAULT&map_hybrid=false&q=%EA%B5%AC%EB%A6%AC%20%ED%9D%A5%ED%99%94%EB%B8%8C%EB%9D%BC%EC%9A%B4%EC%98%A4%ED%94%BC%EC%8A%A4%ED%85%94" target="_blank">'+'<span class="title">CS컨설팅</span>'+'</a>'+'</div>';
+			// 커스텀 오버레이가 표시될 위치입니다 
+			var position = new daum.maps.LatLng(37.601418, 127.140682);  
+
+			// 커스텀 오버레이를 생성합니다
+			var customOverlay = new daum.maps.CustomOverlay({
+				map: map,
+				position: position,
+				content: content,
+				yAnchor: 1 
+			});
 	    });
 	});
-</script>
-    <!--<script src="js/tab.js"></script>-->
+	</script>
     <script src="js/rwdV2.js"></script>
 </head>
 <body>
