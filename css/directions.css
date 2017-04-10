@@ -94,7 +94,7 @@
   .container > .section > .article02 > .publicTransport > h3 { font-size: 18px; margin-bottom: 20px; }
   .container > .section > .article02 > .publicTransport > h4 { font-size: 14px; margin-bottom: 5px; }
   .container > .section > .article02 > .publicTransport > h5 { font-size: 12px; margin-bottom: 30px; line-height: 18px; } }
-.customoverlay { position: relative !important; bottom: 85px !important; border-radius: 6px !important; border: 1px solid #ccc !important; border-bottom: 2px solid #ddd !important; float: left !important; box-sizing: content-box !important; }
+.customoverlay { position: relative !important; bottom: 55px !important; border-radius: 6px !important; border: 1px solid #ccc !important; border-bottom: 2px solid #ddd !important; float: left !important; box-sizing: content-box !important; }
 
 .customoverlay:nth-of-type(n) { border: 0 !important; box-shadow: 0px 1px 2px #888 !important; box-sizing: content-box !important; }
 
