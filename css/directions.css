@@ -71,7 +71,9 @@
   .container > .section > .article02 > ul { width: 100%; padding-left: 70%; margin-bottom: 5%; }
   .container > .section > .article02 > ul > li { float: left; width: auto; margin: 0 1%; font-size: 14px; }
   .container > .section > .article02 > ul > li > a { font-size: 16px; }
-  .container > .section > .article02 > .mapBox { width: 100%; height: 80%; }
+  .container > .section > .article02 > .mapBox { width: 100%; height: 80%; margin-bottom: 20px; }
+  .container > .section > .article02 > .mapBox > ul { height: 50px; }
+  .container > .section > .article02 > .mapBox > ul > li { height: 100%; }
   .container > .section > .article02 > .mapBox > .map { width: 100%; }
   .container > .section > .article02 > .publicTransport > h3 { font-size: 24px; margin-bottom: 20px; }
   .container > .section > .article02 > .publicTransport > h4 { font-size: 18px; margin-bottom: 5px; }
@@ -86,11 +88,14 @@
   .container > .section > .article01 > ul > li > a > h4 { width: 60px; float: left; font-size: 14px; }
   .container > .section > .article01 > ul > li > a > h5 { float: left; font-size: 14px; }
   .container > .section > .article01 > ul > li a:after { content: ""; display: block; clear: both; }
-  .container > .section > .article02 { width: 100%; }
+  .container > .section > .article02 { width: 96%; margin: 0 auto; }
   .container > .section > .article02 > ul { width: 100%; padding: 3%; }
   .container > .section > .article02 > ul > .list > a { font-size: 12px; }
   .container > .section > .article02 > ul > .arrow { font-size: 12px; }
-  .container > .section > .article02 > .mapBox { width: 100%; height: 80%; }
+  .container > .section > .article02 > .mapBox { width: 100%; height: 80%; margin-bottom: 10px; }
+  .container > .section > .article02 > .mapBox > ul { height: 30px; }
+  .container > .section > .article02 > .mapBox > ul > li { height: 100%; }
+  .container > .section > .article02 > .mapBox > .map { width: 100%; }
   .container > .section > .article02 > .publicTransport > h3 { font-size: 18px; margin-bottom: 20px; }
   .container > .section > .article02 > .publicTransport > h4 { font-size: 14px; margin-bottom: 5px; }
   .container > .section > .article02 > .publicTransport > h5 { font-size: 12px; margin-bottom: 30px; line-height: 18px; } }
@@ -103,5 +108,3 @@
 .customoverlay .title { width: 50px; height: 15px; display: block !important; text-align: center !important; background: #fff !important; margin-right: 35px !important; padding: 10px 30px !important; font-size: 14px !important; font-weight: bold !important; box-sizing: content-box !important; }
 
 .customoverlay:after { content: '' !important; position: absolute !important; margin-left: -12px !important; left: 50% !important; bottom: -12px !important; width: 22px !important; height: 12px !important; background: url("http://t1.daumcdn.net/localimg/localimages/07/mapapidoc/vertex_white.png") !important; }
-
-/*# sourceMappingURL=directions.css.map */
