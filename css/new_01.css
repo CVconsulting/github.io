@@ -28,11 +28,7 @@
 .container > .section > .section01 > .bannerBox .mainBanner { height: 100% !important; }
 .container > .section > .section01 > .bannerBox .mainBanner > li { float: left; }
 .container > .section > .section01 > .bannerBox .mainBanner > li > a { width: 100%; height: 100%; display: block; }
-.container > .section > .section01 > .bannerBox .mainBanner > li > a > span { width: 0; height: 0; display: block; overflow: hidden; }
-.container > .section > .section01 > .bannerBox .mainBanner .banner_01 { background-image: url(../img/banner_01.png); }
-.container > .section > .section01 > .bannerBox .mainBanner .banner_02 { background-image: url(../img/banner_01.png); }
-.container > .section > .section01 > .bannerBox .mainBanner .banner_03 { background-image: url(../img/banner_01.png); }
-.container > .section > .section01 > .bannerBox .mainBanner .banner_04 { background-image: url(../img/banner_01.png); }
+.container > .section > .section01 > .bannerBox .mainBanner > li > a > img { width: 100%; height: 100%; display: block; }
 .container > .section > .section01 > .noticeBox > .notice > .noticeBannerBox .noticeBanner > li > h5 { color: #aaa; }
 .container > .section > .section01 > .noticeBox > .lecture .lectureBox > li { background-size: contain; }
 .container > .section > .section01 > .noticeBox > .lecture .lectureBox > li > a { width: 100%; height: 100%; display: block; }
