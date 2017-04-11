@@ -47,6 +47,12 @@
 .container > .section > .section02 > .studyBox > .curriculum .studyBanner > .study04 { background-image: url(../img/study04.jpg); }
 .container > .section > .section02 > .studyBox > .curriculum .studyBanner > .study05 { background-image: url(../img/study03.jpg); }
 .container > .section > .section02 > .studyBox > .curriculum .studyBanner > .study06 { background-image: url(../img/study04.jpg); }
+.container > .section > .section02 > .studyBox > .curriculum .studyBanner > .study01:hover { background-image: url(../img/study11.jpg); }
+.container > .section > .section02 > .studyBox > .curriculum .studyBanner > .study02:hover { background-image: url(../img/study12.jpg); }
+.container > .section > .section02 > .studyBox > .curriculum .studyBanner > .study03:hover { background-image: url(../img/study13.jpg); }
+.container > .section > .section02 > .studyBox > .curriculum .studyBanner > .study04:hover { background-image: url(../img/study14.jpg); }
+.container > .section > .section02 > .studyBox > .curriculum .studyBanner > .study05:hover { background-image: url(../img/study13.jpg); }
+.container > .section > .section02 > .studyBox > .curriculum .studyBanner > .study06:hover { background-image: url(../img/study14.jpg); }
 .container > .section > .section02 > .etcBox > .contactUs { background-color: #F3F3F7; }
 .container > .section > .section02 > .etcBox > .contactUs > form > fieldset > div > button { background-color: #2855a4; color: #fff; font-weight: bold; }
 .container > .section > .section02 > .etcBox > .connect { background-color: #4C4C4C; }
